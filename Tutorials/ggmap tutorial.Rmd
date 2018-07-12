@@ -1,0 +1,39 @@
+---
+title: "Tutorial: ggmap"
+author: "Manuel Gijón Agudo"
+date: "12 de julio de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GGMAP
+
+This package has the same structure and philosophy than ggplot but for georeferencial information.
+
+First load the package in your script or markdown.
+
+```{r cars}
+#install.packages('ggmap')    # uncomented to intall the library if need it
+library(ggmap)
+```
+
+### First steeps
+
+
+```{r pressure, echo=FALSE}
+unizar <- geocode("Plaza de España, Barcelona", source = "google")
+
+#map.unizar <- get_map(location = as.numeric(unizar), color = "color", maptype = "roadmap", scale = 2, zoom = 16)
+
+#ggmap(map.unizar) + geom_point(aes(x = lon, y = lat), data = unizar, colour = 'red', size = 4)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r pressure, echo=FALSE}
+
+
+```
