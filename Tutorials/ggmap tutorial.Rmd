@@ -23,49 +23,117 @@ library(ggmap)
 ### First steeps
 
 
+#### qmap
+
 ```{r pressure, echo=FALSE}
 qmap(location = "barcelona")
 ```
 
 Zoom = 10 as the default value.
-```{r pressure, echo=FALSE}
+
+
+map zoom, an integer from 3 (continent) to 21 (building), default value 10 (city).
+
+
+```{r pressure, echo=TRUE}
 qmap(location = "barcelona", zoom = 15)
 ```
 
-```{r pressure, echo=FALSE}
+
+
+```{r pressure, echo=TRUE}
 qmap(location = "barcelona", maptype = "satellite")
 ```
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 qmap(location = "barcelona", maptype = "hybrid")
 ```
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 qmap(location = "barcelona", maptype = "toner")
 ```
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 qmap(location = "barcelona",  maptype = "watercolor")
 ```
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 qmap(location = "barcelona", maptype = "terrain-background")
 ```
 
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 qmap(location = "barcelona", maptype = "toner-lite")
 ```
 
+#### get_map
+
+maptype
+character string providing map theme. options available are "terrain", "terrain-background", "satellite", "roadmap", and "hybrid" (google maps), "terrain", "watercolor", and "toner" (stamen maps), or a positive integer for cloudmade maps (see ?get_cloudmademap)
+
+
 get_map(location = c(lon = -95.3632715, lat = 29.7632836), zoom = "auto", scale = "auto", maptype = c("terrain", "terrain-background", "satellite", "roadmap", "hybrid", "toner", "watercolor", "terrain-labels", "terrain-lines", "toner-2010", "toner-2011", "toner-background", "toner-hybrid", "toner-labels", "toner-lines", "toner-lite"), source = c("google", "osm", "stamen", "cloudmade"), force = ifelse(source == "google", TRUE, TRUE), messaging = FALSE, urlonly = FALSE, filename = "ggmapTemp", crop = TRUE, color = c("color", "bw"), language = "en-EN", api_key)
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 map <- get_map()
 map
 str(map)
 ggmap(map)
 ```
 
-```{r pressure, echo=FALSE}
+, filename = "test.jpg"
+
+```{r pressure, echo=TRUE}
 map <- get_map(location = "Barcelona", zoom = 6, source = "google")
 ggmap(map, fullpage = TRUE)
 ```
+
+
+
+
+#### ggmap
+
+Sirve para mostrar los objetos ggmap
+
+```{r, echo=TRUE}
+map <- get_map(location = "Barcelona", zoom = 6, source = "google")
+ggmap(map)
+```
+
+
+extent
+how much of the plot should the map take up? "normal", "device", or "panel" (default)
+
+
+```{r, echo=TRUE}
+map <- get_map(location = "Barcelona", zoom = 6, source = "google")
+ggmap(map, extent="device")
+ggmap(map, extent="normal")
+ggmap(map, extent="panel") # default
+``` 
+
+
+
+legend
+"left", "right" (default), "bottom", "top", "bottomleft", "bottomright", "topleft", "topright", "none" (used with extent = "device")
+
+
+
+padding
+distance from legend to corner of the plot (used with legend, formerly b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
