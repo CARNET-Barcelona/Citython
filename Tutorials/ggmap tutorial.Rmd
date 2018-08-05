@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: ggmap"
-author: "Manuel Gijón Agudo"
+author: "Manuel Gij?n Agudo"
 date: "12 de julio de 2018"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+#knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## GGMAP
