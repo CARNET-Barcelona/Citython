@@ -3,5 +3,6 @@ const register = new Vue({
   el: '#register',
   data: {
     // variables y datos a comunicar
+    mensaje: "Thanks :)";
   }
 })
