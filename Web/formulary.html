@@ -8,12 +8,14 @@
 </head>
 <body>
   <div class="wrap">
-    <form action="<?php echo htmlspecialcharts($_SERVER['PHP_SELF']); ?>">
-      <input type="text" class="form-control" name="name" placeholder="Name: " value="">
-      <input type="text" class="form-control" name="surname" placeholder="Surname: " value="">
+    <form action="<?php echo htmlspecialcharts($_SERVER['PHP_SELF']); ?>" method="post">
+      <input type="text" class="form-control" name="name" placeholder="Full name: " value="">
       <input type="text" class="form-control" name="email" placeholder="Email: " value="">
-      <input type="text" class="form-control" name="name" placeholder="Name: " value="">
+      <input type="password" class="form-control" name="password" placeholder="Password: " value="">
+      <input type="password" class="form-control" name="password_repeat" placeholder="Repeat password: " value="">
+      <textarea class="form-control" name="comments"></textarea>
 
+      <input type="submit" name="submit" class="btn btn-primary" value="Sing up!">
     </form>
   </div>
 </body>
