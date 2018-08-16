@@ -20,11 +20,11 @@ body{
   background-color: white;
 }
 
-  .canvas{
-    width: 100%;
-    height: 80%;
-    /* Necesito resituar esta mierda donde toca */
-  }
+.Portada .Lienzo{
+  height: 80%;
+  background-color: green;
+  margin: auto;
+}
 
 .FAQ{
   display: table;
