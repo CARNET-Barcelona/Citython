@@ -1,12 +1,17 @@
 <template>
   <div id="app">
+    aquí vendrá la cabecera con el enlace al formulario de inscipción
     <router-view/>
     <br>
+    zona para el planning
     <router-view/>
     <br>
+    zona para los patrocinadores
     <router-view/>
     <br>
+    footer
     <router-view/>
+    Pendietes: encontrar una forma de manejar esto de manera decente, bla bla bla bla
   </div>
 </template>
 
@@ -16,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
