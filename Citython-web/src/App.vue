@@ -1,23 +1,9 @@
 <template>
   <div id="app">
-    aquí vendrá la cabecera con el enlace al formulario de inscipción
-    <router-view/>
-    <br>
-    zona para el planning
-    <router-view/>
-    <br>
-    zona para los patrocinadores
-    <router-view/>
-    <br>
-    footer
-    <router-view/>
-    Pendietes: encontrar una forma de manejar esto de manera decente, bla bla bla bla
-
-    - Puedo usar un componente para los botones, otro componente para el resto de elementos
-    - Uno para los elementos del footer
-  </div>
-
-  <div id="footer_custom">
+  <router-link v-bind:to="'/'">Home</router-link>
+<router-link v-bind:to="'/about'">About</router-link>
+  <!-- the router outlet, where all matched components would ber viewed -->
+    <router-view></router-view>
   </div>
 </template>
 

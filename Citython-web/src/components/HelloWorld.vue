@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Citython Barcelona'
+      msg: 'componente hello'
     }
   }
 }
