@@ -12,6 +12,12 @@
     footer
     <router-view/>
     Pendietes: encontrar una forma de manejar esto de manera decente, bla bla bla bla
+
+    - Puedo usar un componente para los botones, otro componente para el resto de elementos
+    - Uno para los elementos del footer
+  </div>
+
+  <div id="footer_custom">
   </div>
 </template>
 
@@ -31,3 +37,7 @@ export default {
   margin-top: 0px;
 }
 </style>
+
+
+
+// https://router.vuejs.org/guide/#javascript

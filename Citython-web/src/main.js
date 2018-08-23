@@ -13,3 +13,10 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+
+new VUE({
+  el: '#footer_custom',
+  components: {},
+  template: '<Footer_custom/>'
+})
