@@ -11,8 +11,14 @@ import VueRouter from 'vue-router'
 
 import spaces from './components/spaces'     // lo que importo es el nombre con el que llao al componente
 
-//import the about component
+//import the About component
 import About from './components/About'
+
+//import the Sponsors component
+import Sponsors from './components/Sponsors'
+
+//import the Contact component
+import Contact from './components/Contact'
 
 //tell vue to use the router
 Vue.use(VueRouter)
@@ -21,7 +27,9 @@ Vue.use(VueRouter)
 const routes = [
   //define the root url of the application.
   { path: '/', component: spaces },
-  { path: '/about', component: About }
+  { path: '/about', component: About },
+  { path: '/sponsors', component: Sponsors},
+  { path: '/contact', component: Contact}
 ]
 
 Vue.config.productionTip = false

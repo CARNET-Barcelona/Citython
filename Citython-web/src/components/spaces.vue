@@ -5,11 +5,12 @@
 </template>
 
 <script>
+var mensaje = 'Citython Barcelona 2018'
 export default {
   name: 'spaces',
   data () {
     return {
-      msg: 'Citython Barcelona'
+      msg: mensaje
     }
   }
 }
@@ -18,10 +19,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   *{
-    background-color: grey;
+    background-color: white;
   }
   .spaces{
-    min-height: 500px;
+    height: 80%;
+    margin: auto;
   }
   h1, h2 {
     font-weight: normal;
