@@ -20,6 +20,12 @@ import Sponsors from './components/Sponsors'
 //import the Contact component
 import Contact from './components/Contact'
 
+//import the Challenge component
+import Challenge from './components/Challenge'
+
+//import the Jury component
+import Jury from './components/jury'
+
 //tell vue to use the router
 Vue.use(VueRouter)
 
@@ -29,7 +35,9 @@ const routes = [
   { path: '/', component: spaces },
   { path: '/about', component: About },
   { path: '/sponsors', component: Sponsors},
-  { path: '/contact', component: Contact}
+  { path: '/contact', component: Contact},
+  { path: '/challenge', component: Challenge},
+  { path: '/jury', component: Jury}
 ]
 
 Vue.config.productionTip = false
