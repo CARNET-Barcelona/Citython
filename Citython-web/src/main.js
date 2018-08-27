@@ -3,6 +3,11 @@
 
 //import the vue instance
 import Vue from 'vue'
+// Bootstrap Vue
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 //import the App component
 import App from './App'
 //import the vue router
