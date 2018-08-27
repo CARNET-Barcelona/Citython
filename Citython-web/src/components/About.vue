@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    Espacio para los sponsors del evento
+    explicación del evento, mapas y demás
   </div>
 </template>
 
