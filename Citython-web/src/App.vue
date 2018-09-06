@@ -1,8 +1,6 @@
 <template>
 
   <div id="app">
-
-
     <button class='section-button' id='section-button'> <router-link v-bind:to="'/'">Home</router-link> </button>
     <button class='section-button' id='section-button'> <router-link v-bind:to="'/about'">The event</router-link> </button>
     <button class='section-button' id='section-button'> <router-link v-bind:to="'/Challenge'">The challenge</router-link> </button>

@@ -1,6 +1,13 @@
 <template>
   <div id="about">
-    Challenge 
+    <div class="introduccion">
+    </div>
+
+    <div class="nudo">
+    </div>
+
+    <div class="desenlace">
+    </div>
   </div>
 </template>
 
@@ -19,4 +26,17 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.introduccion{
+
+}
+
+.nudo{
+
+}
+
+.desenlace{
+
+}
+
 </style>
