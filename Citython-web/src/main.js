@@ -31,6 +31,9 @@ import Challenge from './components/Challenge'
 //import the Jury component
 import Jury from './components/jury'
 
+//import the agenda component
+import Agenda from './components/agenda'
+
 //tell vue to use the router
 Vue.use(VueRouter)
 
@@ -42,7 +45,8 @@ const routes = [
   { path: '/sponsors', component: Sponsors},
   { path: '/contact', component: Contact},
   { path: '/challenge', component: Challenge},
-  { path: '/jury', component: Jury}
+  { path: '/jury', component: Jury},
+  { paht: '/agenda', component: Agenda}
 ]
 
 Vue.config.productionTip = false
