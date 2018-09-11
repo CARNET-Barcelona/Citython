@@ -1,7 +1,7 @@
 {
-  "name": "citython_webpage",
+  "name": "webpage-citython",
   "version": "1.0.0",
-  "description": "Webpage for the hackathon 'Citython' 2018",
+  "description": "Webpage for the Citython",
   "author": "Manuel Gijón Agudo",
   "private": true,
   "scripts": {

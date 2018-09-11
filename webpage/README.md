@@ -1,6 +1,6 @@
-# citython_webpage
+# webpage-citython
 
-> Webpage for the hackathon 'Citython' 2018
+> Webpage for the Citython
 
 ## Build Setup
 

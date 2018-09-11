@@ -1,22 +1,36 @@
 <template>
-  <div id="about">
-    explicación del evento, mapas y demás
+  <div id="app">
+    <router-view/>
   </div>
+
+<!--
+  <div class="footer">
+    cosas nazis peter, cosas nazis
+
+  </div>
+
+-->
 </template>
 
 <script>
 export default {
-  name: 'about'
+  name: 'App'
 }
 </script>
-<!-- styling for the component -->
+
 <style>
-#about {
+#app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.footer {
+  /* propiedades de footer comúna a todas las páginas */
+
+  background-color: blue;
 }
 </style>
