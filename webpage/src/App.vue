@@ -1,15 +1,10 @@
 <template>
+  
   <div id="app">
     <router-view/>
   </div>
 
-<!--
-  <div class="footer">
-    cosas nazis peter, cosas nazis
 
-  </div>
-
--->
 </template>
 
 <script>
