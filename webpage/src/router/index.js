@@ -1,35 +1,35 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import HelloWorld from '@/components/HelloWorld'
+import Home from '@/components/Home'
 /*  cosas nuevas */
-import Agenda from 'components/Agenda'
-import Register from 'components/Register'
-import Contact from 'components/Contact'
+import Agenda from '@/components/Agenda'
+import Register from '@/components/Register'
+import Contact from '@/components/Contact'
 
-
+ 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Home',
+      component: Home
     },
     /* cosas nuevas */
     {
-    	path: 'components/',
+    	path: '/',
     	name: 'Agenda',
     	component: Agenda
     },
     {
-    	path: 'components/',
+    	path: '/',
     	name: 'Register',
     	component: Register
     },
     {
-    	path: 'components/',
+    	path: '/',
     	name: 'Contact',
     	component: Contact
     }
