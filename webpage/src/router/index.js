@@ -17,7 +17,6 @@ export default new Router({
       name: 'Home',
       component: Home
     },
-    /* cosas nuevas */
     {
     	path: '/Agenda',
     	component: Agenda
