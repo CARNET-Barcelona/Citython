@@ -1,5 +1,5 @@
 <template>
-	<div class="contact">
+	<div id="Contact">
 		Contacto chachi piruli
 		aquí deberán ir los contactos de ekaterina y el mío
 		es una zona importante, así que quizás añada alguna animacióon o algo así
@@ -8,7 +8,9 @@
 </template>
 
 <script>
-
+	export default {
+	  name: 'Contact'
+	}
 </script>
 
 <style>

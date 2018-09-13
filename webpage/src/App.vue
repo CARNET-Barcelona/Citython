@@ -1,16 +1,25 @@
 <template>
   
   <div id="app">
-    <router-view/>
+    <div class="nav">
+      <!-- espacio reservado para la barra de navegación -->
+      <router-link tag="li" to="/" exact> Home </router-link>
+      <router-link tag="li" to="/Agenda"> Agenda </router-link>
+      <router-link tag="li" to="/Register"> Register </router-link>
+      <router-link tag="li" to="/Contact"> Contact </router-link>
+    </div>
+    
+  <router-view/>
+
   </div>
 
 
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  export default {
+    name: 'App'
+  }
 </script>
 
 <style>
@@ -27,5 +36,8 @@ export default {
   /* propiedades de footer comúna a todas las páginas */
 
   background-color: blue;
+}
+router-link{
+  text-decoration: none;
 }
 </style>

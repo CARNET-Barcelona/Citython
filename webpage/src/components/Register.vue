@@ -1,5 +1,5 @@
 <template>
-	<div class="Register">
+	<div id="Register">
 		aquí irá simplemente un enlace a Eventbrite
 		<button class="Register-button">Sing Up!!</button>
 		Sí o sí deberé añadir alguna animación o algo para que esto cobre vida, muhahahahah
@@ -7,7 +7,9 @@
 </template>
 
 <script>
-
+	export default {
+	  name: 'Register'
+	}
 </script>
 
 <style>

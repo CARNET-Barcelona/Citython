@@ -19,19 +19,18 @@ export default new Router({
     },
     /* cosas nuevas */
     {
-    	path: '/',
-    	name: 'Agenda',
+    	path: '/Agenda',
     	component: Agenda
     },
     {
-    	path: '/',
-    	name: 'Register',
+    	path: '/Register',
     	component: Register
     },
     {
-    	path: '/',
-    	name: 'Contact',
+    	path: '/Contact',
     	component: Contact
     }
-  ]
+  ],
+  linkActiveClass: "active", 
+  mode: "history"
 })
