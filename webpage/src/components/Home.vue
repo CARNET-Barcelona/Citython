@@ -12,10 +12,10 @@
 
     <div class="Faqs-section">           <!-- TENGO que hacer que esta mierda quepa donde toca para que esto tengo algún sentido -->
       <div class="Faqs-header">
-        <button class="Faqs-button">FAQS</button>
+        <button class="Faqs-button collapsible">FAQS</button>
       </div> <!-- end Faqs-header -->
 
-      <div class="Faqs-body">   <!-- debo hacerla que colapse  -->
+      <div class="Faqs-body content">   <!-- debo hacerla que colapse  -->
         <p class="question"> Lorem Ipsum is simply dummy text of the printing and typesetting industry? </p>
         <p class="answer"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
@@ -40,16 +40,32 @@
 </template>
 
 <script>
-export default {
-  name: 'Cityhon Barcelona 2018',
-  data () {
-    return {
-      msg: 'Citython Barcelona'
+  export default {
+    name: 'Cityhon Barcelona 2018',
+    data () {
+      return {
+        msg: 'Citython Barcelona'
+      }
     }
   }
-}
+/*
 
+  var coll = document.getElementByClassName("collapsible");
+  var i;
 
+  for (i = 0; i < coll.length; i++){
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display == "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+
+*/
 
 /* Estoy muy cansado de esta ierda, completamente harto de las presentacioes de mierda, es un asco, ingir que nos 
    importamos cuando no lo hacemos realmente es un completo hasco  */
@@ -59,6 +75,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+  #Home{
+    overflow: scroll;
+  }
   h1, h2 {
     font-weight: normal;
   }
@@ -120,4 +140,24 @@ export default {
     color: blue;
     padding-bottom: 40px;
   }
+ 
+
+ /*
+  .collapsible{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+  }
+
+  .active, .collapsible:hover{
+  }
+
+  .content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+  */
 </style>
