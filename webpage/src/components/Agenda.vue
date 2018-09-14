@@ -1,10 +1,6 @@
 <template>
 	<div id="Agenda">
-		Aquí no sé cómo me las arreglaré pero debo incluir las mierdas de horarios con unso botones collapsables
-		para separar los días
-		aún no tengo ni idea de como lo haré
-		tangoq ue hacer que esta mierda fundcione, lo ideal sería conseguir hacerlo con bootstrap, pero no quieoro cargarme esta mierda qye ya bastantes dolores de cabeza me ha costado
-		mierdas varias que de
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 	</div>
 </template>
 
@@ -15,5 +11,7 @@
 </script>
 
 <style>
-
+	#Agenda{
+		color: blue;
+	}
 </style>

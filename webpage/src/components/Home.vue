@@ -16,14 +16,14 @@
       </div> <!-- end Faqs-header -->
 
       <div class="Faqs-body">   <!-- debo hacerla que colapse  -->
-        <p class="question"> por qué la vida es tan coñazo?</p>
-        <p class="answer"> porque sí, deja de preguntar estupideces y comienza a mover tu puto culo, olgazán</p>
+        <p class="question"> Lorem Ipsum is simply dummy text of the printing and typesetting industry? </p>
+        <p class="answer"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
-        <p class="question"> por qué la vida es tan coñazo?</p>
-        <p class="answer"> porque sí, deja de preguntar estupideces y comienza a mover tu puto culo, olgazán</p>
+        <p class="question"> Lorem Ipsum is simply dummy text of the printing and typesetting industry? </p>
+        <p class="answer"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
-        <p class="question"> por qué la vida es tan coñazo?</p>
-        <p class="answer"> porque sí, deja de preguntar estupideces y comienza a mover tu puto culo, olgazán</p>
+        <p class="question"> Lorem Ipsum is simply dummy text of the printing and typesetting industry? </p>
+        <p class="answer"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
 
       </div> <!-- end Faqs-body -->
@@ -31,7 +31,7 @@
     </div> <!-- end Faqs-section -->
     
     <div class="Event-location">
-      Aquí irá el mapa indicando dónde se celebrará el evento, esta zona no se colapsará como el resto
+      Map
     </div> <!-- end Event-location -->
 
   </div> <!-- end Home -->
@@ -59,61 +59,65 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-.introduction{
-  color: blue;
-  position: relative;
-  min-height: 15%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-.Event-details{
-  color: blue;
-  padding-bottom: 40px;
-}
-.Faqs-section{
-  color: blue;
-  padding-bottom: 40px;
-}
-.Faqs-body{
-  padding-top: 15px;    /* bad code */
-}
-.question{
-  font-weight: bold;
-}
-.answer{
-  color: green;
-  padding-bottom: 10px;
-}
-.Faqs-button{
-  background-color: pink;
-  color: white;
-  border-radius: 5px;
-  font-size: 25;
-  padding: 15px;
-}
-.Faqs-button:hover{
-  font-weight: bold;
-}
-.Faqs-button:active{
-  font-weight: bold;
-  background-color: yellow;
-}
-.Event-location{
-  color: blue;
-  padding-bottom: 40px;
-}
+  h1, h2 {
+    font-weight: normal;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  }
+  .introduction{
+    color: blue;
+    position: relative;
+    min-height: 15%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .Event-details{
+    color: blue;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .Faqs-section{
+    color: blue;
+    padding-bottom: 40px;
+  }
+  .Faqs-body{
+    padding-top: 15px;    /* bad code */
+  }
+  .question{
+    font-weight: bold;
+  }
+  .answer{
+    color: #5cdaa9;
+    padding-bottom: 10px;
+  }
+  .Faqs-button{
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    font-size: 25;
+    padding: 15px;
+  }
+  .Faqs-button:hover{
+    font-weight: bold;
+  }
+  .Faqs-button:active{
+    font-weight: bold;
+    background-color: yellow;
+  }
+  .Event-location{
+    color: blue;
+    padding-bottom: 40px;
+  }
 </style>

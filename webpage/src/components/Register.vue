@@ -1,10 +1,8 @@
 <template>
 	<div id="Register">
-		aquí irá simplemente un enlace a Eventbrite
 		<div class="centrado">
 			<button class="Register-button">Sing Up!!</button>
 		</div> <!-- end centrado -->
-		Sí o sí deberé añadir alguna animación o algo para que esto cobre vida, muhahahahah
 	</div>
 </template>
 

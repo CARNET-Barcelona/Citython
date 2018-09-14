@@ -1,14 +1,10 @@
 <template>
 	<div id="Contact">
-		Contacto chachi piruli
-		aquí deberán ir los contactos de ekaterina y el mío
-		es una zona importante, así que quizás añada alguna animacióon o algo así
-		debe setr una zona cuidada, quizás transiciones o algo así
-
-		Quiero que esta mieerda no esté justidicada!!!!
+		
+      	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 		<ul>
-			<li>mi mail</li>
-			<li>ekaterina mail</li>
+			<li>mail 1</li>
+			<li>mail 2</li>
 		</ul>
 	</div>
 </template>
@@ -20,5 +16,7 @@
 </script>
 
 <style>
-
+	#Contact{
+		color: blue;
+	}
 </style>
