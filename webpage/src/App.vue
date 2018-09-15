@@ -11,12 +11,31 @@
         </div>
         
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">            
+
+          <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2">
+              <router-link tag="li" to="/" exact><strong> Home </strong></router-link>
+            </div>
+            <div class="col-md-2">
+              <router-link tag="li" to="/Agenda"><strong> Agenda </strong></router-link>
+            </div>
+            <div class="col-md-2">
+              <router-link tag="li" to="/Register"><strong> Register </strong></router-link>
+            </div>
+            <div class="col-md-2">
+             <router-link tag="li" to="/Contact"><strong> Contact </strong></router-link>                      
+            </div>
+            <div class="col-md-2">
+            </div>
+          </div>
+      <!--    <ul class="nav navbar-nav">            
             <router-link tag="li" to="/" exact><strong> Home </strong></router-link>
             <router-link tag="li" to="/Agenda"><strong> Agenda </strong></router-link>
             <router-link tag="li" to="/Register"><strong> Register </strong></router-link>
             <router-link tag="li" to="/Contact"><strong> Contact </strong></router-link>                      
-          </ul>
+          </ul> -->
         </div>
       </div>
     </nav>
