@@ -74,6 +74,14 @@
     overflow: scroll;
   }
 
+  .navbar{
+    background-color: blue;
+    color: white;
+  }
+  #navbar{
+    background-color: blue;
+    color: white;
+  }
   .footer {
     /* propiedades de footer comúna a todas las páginas */
 
