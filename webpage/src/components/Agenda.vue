@@ -6,9 +6,13 @@
 
       <div class="container martes">
 
+      	<button class="boton">
+      		Tuestay 6
+      	</button>
+
       	<div class="row">
       		<div class="col-md-6">
-      			SIGUE PENDIENTE MUHAHHAHAHAH
+      			SIGUE PENDIENTE MUHAHHAHAHAH, añadirle los formatos correctos
       		</div>
       		<div class="col-md-6">
       		</div>
@@ -16,10 +20,14 @@
 
       </div> <!-- end martes -->
 
+      <button class="boton">
+      		Saturday 10
+      	</button>
+
       <div class="container sabado">
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			8:00 - 10:00
       		</div>
       		<div class="col-md-6">
@@ -28,7 +36,7 @@
       	</div>
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			10:00 - 10:30
       		</div>
       		<div class="col-md-6">
@@ -37,7 +45,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			10:30 - 13:00
       		</div>
       		<div class="col-md-6">
@@ -46,7 +54,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			13:00 - 13:15
       		</div>
       		<div class="col-md-6">
@@ -55,7 +63,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			13:15 - 14:00
       		</div>
       		<div class="col-md-6">
@@ -64,7 +72,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			14:00 - 21:00
       		</div>
       		<div class="col-md-6">
@@ -73,7 +81,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			21:00 - 22:00
       		</div>
       		<div class="col-md-6">
@@ -82,7 +90,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			21:00 - 00:00
       		</div>
       		<div class="col-md-6">
@@ -92,10 +100,14 @@
 
       </div> <!-- end sabado -->
 
+      <button class="boton">
+      		Sunday 11
+      	</button>
+
       <div class="container domingo">
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			8:00 - 13:00 
       		</div>
       		<div class="col-md-6">
@@ -104,7 +116,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			13:00 - 14:00
       		</div>
       		<div class="col-md-6">
@@ -113,7 +125,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			14:00 - 15:00 
       		</div>
       		<div class="col-md-6">
@@ -122,7 +134,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			15:00 - 18:00 
       		</div>
       		<div class="col-md-6">
@@ -131,7 +143,7 @@
       	</div> 
 
       	<div class="row">
-      		<div class="col-md-6">
+      		<div class="col-md-6 hora">
       			18:00 - 21:00 
       		</div>
       		<div class="col-md-6">
@@ -162,6 +174,9 @@
 		padding-right: 50px;
 		padding-left: 50px;
 	}
+	.hora{
+		font-weight: bold;
+	}
 	.martes{
 		color: red !important;
 		padding-top: 50px;
@@ -174,5 +189,13 @@
 	.domingo{
 		color: orange !important;
 		padding-bottom: 50px;
+	}
+	.boton{
+		background-color: pink;
+	    color: white;
+	    border-radius: 5px;
+	    font-size: 25;
+	    padding: 15px;
+	    margin-bottom: 30px;
 	}
 </style>

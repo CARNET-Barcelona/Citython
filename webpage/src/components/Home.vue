@@ -8,6 +8,13 @@
     <div class="Event-details">
       Event Details
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+      - challenge -> visualize ideas -> 
+                                        - Urban planners, arichitects, ... -> competencias necesarias
+                                        - Data scientcosas ->
+                                        BORRAR TODA LA MIERDA QUE AUNQUE NO SE VEA EN MI NAVEGADOR
+                                        PUEDE QUE SÍ EN OTROS, LIMPIAR EL CÓDIGO
     </div> <!-- end Event-details -->
 
     <div class="Faqs-section">           <!-- TENGO que hacer que esta mierda quepa donde toca para que esto tengo algún sentido -->
