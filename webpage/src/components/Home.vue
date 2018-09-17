@@ -31,7 +31,9 @@
     </div> <!-- end Faqs-section -->
     
     <div class="Event-location">
-      Map
+      <div class="Map-header">
+        <button class="Map-button">MAP</button>
+      </div>
     </div> <!-- end Event-location -->
 
   </div> <!-- end Home -->
@@ -140,7 +142,20 @@
     color: blue;
     padding-bottom: 40px;
   }
- 
+ .Map-button{
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    font-size: 25;
+    padding: 15px;
+  }
+  .Map-button:hover{
+    font-weight: bold;
+  }
+  .Map-button:active{
+    font-weight: bold;
+    background-color: yellow;
+  }
 
  /*
   .collapsible{

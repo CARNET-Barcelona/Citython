@@ -29,31 +29,15 @@
             </div>
             <div class="col-md-2">
             </div>
-          </div>
-      <!--    <ul class="nav navbar-nav">            
-            <router-link tag="li" to="/" exact><strong> Home </strong></router-link>
-            <router-link tag="li" to="/Agenda"><strong> Agenda </strong></router-link>
-            <router-link tag="li" to="/Register"><strong> Register </strong></router-link>
-            <router-link tag="li" to="/Contact"><strong> Contact </strong></router-link>                      
-          </ul> -->
-        </div>
-      </div>
-    </nav>
+          </div> <!-- end row -->
 
-<!-- 
-    <div class="nav"> -->
-      <!-- espacio reservado para la barra de navegación -
-      <router-link tag="li" to="/" exact><strong> Home </strong></router-link>
-      <router-link tag="li" to="/Agenda"><strong> Agenda </strong></router-link>
-      <router-link tag="li" to="/Register"><strong> Register </strong></router-link>
-      <router-link tag="li" to="/Contact"><strong> Contact </strong></router-link> -->
-  <!--  </div> -->
+        </div> <!-- end navbar -->
+      </div> <!-- end container -->
+    </nav> <!-- end nav -->
     
   <router-view/>
 
   </div>
-
-
 </template>
 
 <script>
