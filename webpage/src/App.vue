@@ -56,6 +56,7 @@
     margin-top: 60px;
     min-height: 70%;    /* esta noche perderé parte de mi vida dándole los colores correctos a esta mierda enorme */
     overflow: scroll;
+  /*  background-image: url("asset/Logo.png"); */
   }
 
   .navbar{
