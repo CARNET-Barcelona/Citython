@@ -23,9 +23,13 @@
 	}
 
 
-	var boton1 = document.getElementById("Register-button-1")   // botón de registro para los uban-cosa
-	var boton2 = document.getElementById("Register-button-2")   // botón de registro para los data-scientits
+	var boton1 = document.getElementById("Register-button-1");   // botón de registro para los uban-cosa NO ESTOY SEGURO DE QUE LOS NECESITA, PERO ADELANTE LOS FAROLES
+	var boton2 = document.getElementById("Register-button-2");   // botón de registro para los data-scientits
 
+	var canvas = document.getElementById("Register");
+
+	// quizás unas cuantas pompas que suban por el canvas de manera pseudo aleatoria funcionaría bien, siempte
+	// y cuando cambien de color al entrar en contacto con las sexxinoes que no son blancas y su color se vuelva complementeario.
 	// aquí deberé hacer algún tipo de animación chula que me sirva para entretenerme
 </script>
 
@@ -46,6 +50,10 @@
 	color: white;
 	border-radius: 5px;
 	font-size: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 }
 .Register-button:hover{

@@ -12,7 +12,9 @@
 
       	<div class="row">
       		<div class="col-md-6">
-      			SIGUE PENDIENTE MUHAHHAHAHAH, añadirle los formatos correctos
+      			We don't know yet 
+      			<br>
+      			Tengo que revisar la puta agenda, ha habido cambios
       		</div>
       		<div class="col-md-6">
       		</div>
@@ -152,7 +154,7 @@
       	</div> 
 
 
-
+      	Estaría super bien colocar algún tipo de desplegable con un o algo un bocadillo o algo sobre quién da la charla y demás, supongo que esto lo haré con java script.
       </div> <!-- end domingo -->
 
     </div> <!-- end container -->
@@ -178,16 +180,16 @@
 		font-weight: bold;
 	}
 	.martes{
-		color: red !important;
+		color: blue !important;
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
 	.sabado{
-		color: black !important;
+		color: blue !important;
 		padding-bottom: 50px;
 	}
 	.domingo{
-		color: orange !important;
+		color: blue !important;
 		padding-bottom: 50px;
 	}
 	.boton{

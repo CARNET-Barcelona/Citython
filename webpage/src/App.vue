@@ -54,7 +54,7 @@
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
-
+    min-height: 70%;    /* esta noche perderé parte de mi vida dándole los colores correctos a esta mierda enorme */
     overflow: scroll;
   }
 

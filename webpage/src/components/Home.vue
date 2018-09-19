@@ -17,7 +17,7 @@
                                         PUEDE QUE SÍ EN OTROS, LIMPIAR EL CÓDIGO
     </div> <!-- end Event-details -->
 
-    <div class="Faqs-section">           <!-- TENGO que hacer que esta mierda quepa donde toca para que esto tengo algún sentido -->
+    <div class="Faqs-section">          
       <div class="Faqs-header">
         <button class="Faqs-button collapsible">FAQS</button>
       </div> <!-- end Faqs-header -->
@@ -42,7 +42,10 @@
         <button class="Map-button">MAP</button>
       </div>
     </div> <!-- end Event-location -->
-
+    <div class="Map-place">
+      
+      carrer de fluvia 22
+    </div> <!-- end Map-place -->
   </div> <!-- end Home -->
 
 
@@ -57,29 +60,6 @@
       }
     }
   }
-/*
-
-  var coll = document.getElementByClassName("collapsible");
-  var i;
-
-  for (i = 0; i < coll.length; i++){
-    coll[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display == "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
-  }
-
-*/
-
-/* Estoy muy cansado de esta ierda, completamente harto de las presentacioes de mierda, es un asco, ingir que nos 
-   importamos cuando no lo hacemos realmente es un completo hasco  */
-/* <h1>{{ msg }}</h1>
-    <h2> Bla bLa Bla Bla </h2>   */
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -163,23 +143,8 @@
     font-weight: bold;
     background-color: yellow;
   }
-
- /*
-  .collapsible{
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
+  .Map-place{
+    min-height: 400px;
   }
 
-  .active, .collapsible:hover{
-  }
-
-  .content{
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-  }
-  */
 </style>
