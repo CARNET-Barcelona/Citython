@@ -1,6 +1,6 @@
 <template>
 	<div id="Register">
-		<div class="container">
+		<div class="container registros">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="centrado">
@@ -26,9 +26,12 @@
 <style>
 #Register{
 	display: block;
+	min-height: 80vh;
+}
+.registros{
+	min-height: 100px;
 }
 .centrado{
-	position: relative;
 	display: block;
 	top: 50%;    
 	padding: 40px;

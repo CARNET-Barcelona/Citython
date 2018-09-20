@@ -61,7 +61,7 @@
 		</div> <!-- end about-ajuntament -->
 
 		<div class="smart-city-week">
-			aquí irá una pequeña descripción de esta mierda, con enlaces, imágenes, etc.
+			Enlaces a la smart city week
 		</div> <!-- smart-city-week -->
 	</div>
 </template>
@@ -73,6 +73,7 @@
 </script>
 
 <style>
+
 	a{
 		text-decoration: none;
 	}
@@ -82,8 +83,8 @@
 	.introducction{
 		padding: 50px;
 	}
+
 	.container{
-		padding-bottom: 50px;
 	}
 	.mail{
 		font-weight: bold;
@@ -107,4 +108,5 @@
 	.smart-city-week{
 		min-height: 100px;
 	}
+	
 </style>

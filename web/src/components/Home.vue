@@ -2,19 +2,45 @@
   <div class="Home">
     
     <div class="introduction">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      <h2>The challenge</h2>
+      <p>
+        Barcelona is a mature tourist destination that receives more than 27 million visitors per year, half of whom generate at least one overnight stay. Worldwide, Barcelona ranked 6th among European city destinations in 2017. International visitor expenditure in Barcelona has gradually risen in recent years, in line with the increasing volume of tourists arriving in the city. The visitor economy in the city has an impact on the services in the city which are no longer targeted at the local residents, but at the tourists. The result of this transformation during the past years is tourism gentrification evident in the historic centres of the city. 
+      </p>
     </div> <!-- end introducction -->
 
     <div class="Event-details">
-      Event Details
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      <p>
+        Tourism gentrification (touristification) refers to the transformation of a middle-class neighbourhood into a relatively affluent and exclusive place marked by a rapid increase of corporate entertainment and tourism venues. 
+        The challenge of the Citython is to make proposals for management and intervention in the urban public spaces of the historical centers of Barcelona in order to mitigate the impacts of the tourism gentrification caused by the visitor economy. For this reason, an analysis of urban data is required in order to solve the problems with the exploitation of the historic centers (both public and collective spaces) through proposals that have as many goals as possible:
+      </p>
+      <ul>
+        <li>Mitigate the flow of people</li>
+        <li>Reduce crowding</li>
+        <li>Promote civic behaviors</li>
+        <li>Promote the awareness of the user towards a responsible and respectful use of space</li>
+        <li>Value the elements of tangible and / or intangible heritage</li>
+        <li>Identify informal or non-normalized uses that generate negative externalities</li>
+        <li>Support the decision making of policies and programs for the management of the phenomenon</li>
+      </ul>
+      <p>
+        Key subjects:
+      </p>
+      <ul>
+        <li>Public space (Note: not housing)</li>
+        <li>Gentrification</li>
+        <li>Tourism</li>
+        <li>Mobility</li>
+        <li>Commerce</li>
+      </ul>
 
+<!--
 
       - challenge -> visualize ideas -> 
                                         - Urban planners, arichitects, ... -> competencias necesarias
                                         - Data scientcosas ->
                                         BORRAR TODA LA MIERDA QUE AUNQUE NO SE VEA EN MI NAVEGADOR
                                         PUEDE QUE SÍ EN OTROS, LIMPIAR EL CÓDIGO
+                                      -->
     </div> <!-- end Event-details -->
 
     <div class="Faqs-section">          
@@ -23,16 +49,40 @@
       </div> <!-- end Faqs-header -->
 
       <div class="Faqs-body content">   <!-- debo hacerla que colapse  -->
-        <p class="question"> Lorem Ipsum is simply dummy text of the printing and typesetting industry? </p>
-        <p class="answer"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p class="question"> What is a hackathon? </p>
+        <p class="answer"> A hackathon is a sprint-like event in which small groups of young professionals search for innovative and creative solutions for everyday problems. The result can be a program, a prototype, a test model, a tool a design solution or a concept. </p>
 
-        <p class="question"> Lorem Ipsum is simply dummy text of the printing and typesetting industry? </p>
-        <p class="answer"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p class="question"> What is Citython Barcelona? </p>
+        <p class="answer"> A 3-day hackathon that takes place in Barcelona and brings together creative and inquisitive minds to solve the gentrification problem occurring in the historic centers of Barcelona.  Young professionals from the fields of urbanism and computer and data sciences will be brought together in the same place for fun and an intense session of co-creation, hacking and collaboration. The difference from a typical hackathon is that the Citython requires the analysis of data to understand a problem and reach to a conclusion. </p>
 
-        <p class="question"> Lorem Ipsum is simply dummy text of the printing and typesetting industry? </p>
-        <p class="answer"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p class="question"> What is a TechPill? </p>
+        <p class="answer"> A TechPill is a short but definitive training session on a certain topic (usually it lasts an hour). We offer you cutting-edge knowledge about Open Data and data analysis and visualization, so you can come up with the best ideas with the best tools. We will give you knowledge and a full week to think about what you can do! After that, you will be ready to hack. </p>
 
+        <p class="question"> What do I need to bring? </p>
+        <p class="answer"> Please, bring the following with you:
+        You have to carry with you your own ID during the whole event.
+        You do not have to worry about food. We have arranged that. 
+        You can bring any device you think you may need in order to develop your projects. (Smartphones and laptops are highly recommended.) </p>
 
+        <p class="question"> What are the requirements to participate? </p>
+        <p class="answer"> You have to meet the following requirements: 
+        You must be at least 18 years old during the days of the event. 
+        You have to apply as an individual on our website. Registration starts 9th October, 2018 and ends 5th November, 2018.
+        You must have either data/computer or urbanism background. If you have both, you are also welcome to join. Find out more about the specific skills required for each background on our website. 
+        For further information, read our rules and terms. </p>
+
+        <p class="question"> Will any help be provided to develop my project? </p>
+        <p class="answer"> Sure! You will be able to attend our TechPills and receive feedback from the appointed mentors during the hack days. </p>
+<!--
+        <p class="question">   </p>
+        <p class="answer">   </p>
+
+        <p class="question">   </p>
+        <p class="answer">   </p>
+
+        <p class="question">   </p>
+        <p class="answer">   </p>
+  -->
       </div> <!-- end Faqs-body -->
         
     </div> <!-- end Faqs-section -->
