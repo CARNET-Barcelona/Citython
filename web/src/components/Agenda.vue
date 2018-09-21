@@ -154,7 +154,7 @@
       	</div> 
 
 
-      	Estaría super bien colocar algún tipo de desplegable con un o algo un bocadillo o algo sobre quién da la charla y demás, supongo que esto lo haré con java script.
+     <!-- 	Estaría super bien colocar algún tipo de desplegable con un o algo un bocadillo o algo sobre quién da la charla y demás, supongo que esto lo haré con java script. -->
       </div> <!-- end domingo -->
 
     </div> <!-- end container -->

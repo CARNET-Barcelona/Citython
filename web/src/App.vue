@@ -28,6 +28,7 @@
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+ /*   background-image: "assets/Logo.png" !important;  */
   }
   .navbar{
     color: white;
