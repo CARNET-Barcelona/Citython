@@ -41,7 +41,9 @@ Have a simple idea of what is the process that the information is going to do he
 
 * First we want to thintk in what we want to obtain. In mose cases it will be a graphic representation of the information, a map in simple words. From this point, we have to think in what is the querey we want to do based in what kind of information we have (see the two next sections).
 
-* Now we have to know what is an **API**. An API is an bla bla bla bla and it is going to be what send us the information.
+* Now we have to know what is an **API**. An API is an 'Application Programming Interface' and it is going to be what send us the information. Usually we use Google. **Important**: we must be aware that for a free use the number of queries to the Google API is limited to 2500.
+
+* The information arrive to us, often in an image form.
 
 
 $$
