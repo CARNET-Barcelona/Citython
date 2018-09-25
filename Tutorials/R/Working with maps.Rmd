@@ -2,29 +2,58 @@
 title: "Working with maps"
 author: "Manuel Gijón Agudo"
 date: "24/9/2018"
-output: html_document
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: 2
+  html_document:
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+lang: en 
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+-----------------------------------------------------------
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Loading packages
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+First, we have to include the requieres packages. In order to work with maps, we explain in this tutorial how to do it with the **ggmap** library and how to add new information using the ggplot2 syntax.
 
-```{r cars}
-summary(cars)
+```{r libraries, include=TRUE}
+#install.packages('knitr')    # uncomented to intall the library if need it
+library(knitr)    # just to generate this tutorial
+
+#install.packages('ggplot2')    # uncomented to intall the library if need it
+library(ggplot2)   # for plotting
+
+#install.packages('ggmap')    # uncomented to intall the library if need it
+library(ggmap)    # for working with maps
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+## First steeps
+
+Have a simple idea of what is the process that the information is going to do help us to be more efficient.
+
+* First we want to thintk in what we want to obtain. In mose cases it will be a graphic representation of the information, a map in simple words. From this point, we have to think in what is the querey we want to do based in what kind of information we have (see the two next sections).
+
+* Now we have to know what is an **API**. An API is an bla bla bla bla and it is going to be what send us the information.
+
+
+$$
+Query \longrightarrow \boxed{API} \longrightarrow Information
+$$
+
+### Using an adress
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+### Using a pair of georeferencial information
+
