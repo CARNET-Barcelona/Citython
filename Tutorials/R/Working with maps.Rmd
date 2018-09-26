@@ -1,7 +1,7 @@
 ---
 title: "Working with maps"
 author: "Manuel Gijón Agudo"
-date: "24/9/2018"
+date: '`r format(Sys.Date(),"%e de %B, %Y")`'
 output:
   pdf_document:
     toc: yes
@@ -41,7 +41,7 @@ Have a simple idea of what is the process that the information is going to do he
 
 * First we want to thintk in what we want to obtain. In mose cases it will be a graphic representation of the information, a map in simple words. From this point, we have to think in what is the querey we want to do based in what kind of information we have (see the two next sections).
 
-* Now we have to know what is an **API**. An API is an 'Application Programming Interface' and it is going to be what send us the information. Usually we use Google. **Important**: we must be aware that for a free use the number of queries to the Google API is limited to 2500.
+* Now we have to know what is an **API**. An API is an 'Application Programming Interface' and it is going to be what send us the information. Usually we use Google. **Important**: we must be aware that for a free use the number of queries to the Google API is limited to 2500. A few API servers to mention: OpenStreetMap, Google Maps, Stamen and Naver.
 
 * The information arrive to us, often in an image form.
 
@@ -50,12 +50,32 @@ $$
 Query \longrightarrow \boxed{API} \longrightarrow Information
 $$
 
-### Using an adress
+### Getting information from the API
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+#### Using an adress
+
+The **geocode** function ask the API and returns the coordinates of the point in a data.frame object. It will have two rows, longitude and latitude.
+
+```{r geocode, echo=TRUE}
+point <- geocode('Calle Ample 4, Barcelona, España', source = "google")
+names(point)      # we can check the names of the returned data.frame object
+
+print(point$lon)
+print(point$lat)
 ```
 
+#### Using a pair of georeferencial information
 
-### Using a pair of georeferencial information
+The backwards function: from a pair (lon, lat) we obtain the direction it keeps.
+
+```{r revgeocode , echo=TRUE}
+address <- revgeocode(as.numeric(point))
+```
+
+### Getting maps from the API
+
+#### get_map function
+
+
+#### qmap function
 
