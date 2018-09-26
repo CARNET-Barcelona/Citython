@@ -1,0 +1,50 @@
+---
+title: "Introduction to ggplot2"
+author: "Manuel Gijón Agudo"
+date: '`r format(Sys.Date(),"%e de %B, %Y")`'
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: 2
+  html_document:
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+lang: en # language,  en: english (default), es: espa?ol, ca: catalan, ...
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## First steps
+
+The first step is to load the library or install it if it si not.
+```{r instalation, echo=TRUE}
+#install.packages("ggplot")  # uncommented in case it is not installed
+library(ggplot2)
+```
+
+First we are going to initialize based on a preloaded dataset.
+
+```{r first-steps, echo=TRUE}
+# Setup
+options(scipen=999)  # turn off scientific notation like 1e+06
+data("midwest", package = "ggplot2")  # load the data
+
+# Init Ggplot
+ggplot(midwest, aes(x=area, y=poptotal))  # area and poptotal are columns in 'midwest'```
+```
+
+Note that we are using the function 'aes' to specify the axis to ggplot.
+
+## Simple scatterpor
+
+```{r simple_scaterplot, echo=FALSE}
+ggplot(midwest, aes(x=area, y=poptotal)) + geom_point()
+```
+
+```{r, echo=TRUE}
+g <- ggplot(midwest, aes(x=area, y=poptotal)) + geom_point() + geom_smooth(method="lm")  # set se=FALSE to turnoff confidence bands
+plot(g)
+```

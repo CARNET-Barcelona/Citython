@@ -19,14 +19,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -----------------------------------------------------------
 
+```{r set-up, include=FALSE}
+#install.packages('knitr')    # uncomented to intall the library if need it
+library(knitr)    # just to generate this tutorial
+```
+En este tutotorial exploraremos dos paquetes fundamentalmente
+# ggmap library
+
 ## Loading packages
 
 First, we have to include the requieres packages. In order to work with maps, we explain in this tutorial how to do it with the **ggmap** library and how to add new information using the ggplot2 syntax.
 
-```{r libraries, include=TRUE}
-#install.packages('knitr')    # uncomented to intall the library if need it
-library(knitr)    # just to generate this tutorial
-
+```{r libraries-1, include=TRUE}
 #install.packages('ggplot2')    # uncomented to intall the library if need it
 library(ggplot2)   # for plotting
 
@@ -50,9 +54,9 @@ $$
 Query \longrightarrow \boxed{API} \longrightarrow Information
 $$
 
-### Getting information from the API
+## Getting information from the API
 
-#### Using an adress
+### Using an adress
 
 The **geocode** function ask the API and returns the coordinates of the point in a data.frame object. It will have two rows, longitude and latitude.
 
@@ -64,7 +68,7 @@ print(point$lon)
 print(point$lat)
 ```
 
-#### Using a pair of georeferencial information
+### Using a pair of georeferencial information
 
 The backwards function: from a pair (lon, lat) we obtain the direction it keeps.
 
@@ -72,10 +76,24 @@ The backwards function: from a pair (lon, lat) we obtain the direction it keeps.
 address <- revgeocode(as.numeric(point))
 ```
 
-### Getting maps from the API
+## Getting maps from the API
 
-#### get_map function
+### get_map function
 
 
-#### qmap function
+### qmap function
+
+# mapview library
+
+## Loading packages
+
+First, we have to include the requieres packages. In order to work with maps, we explain in this tutorial how to do it with the **mapview** library and how to add new information using the ggplot2 syntax.
+
+```{r libraries-1, include=TRUE}
+#install.packages('ggplot2')    # uncomented to intall the library if need it
+library(ggplot2)   # for plotting
+
+#install.packages('mapview')    # uncomented to intall the library if need it
+library(mapview)    # for working with maps
+```
 
