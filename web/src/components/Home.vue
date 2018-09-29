@@ -8,7 +8,7 @@
       </p>
     </div> <!-- end introducction -->
     <div class="logo-place">
-      <img src="assets/Logo.png">
+      <img src="/Logo.png">
     </div>
     <div class="Event-details">
       <p>
@@ -96,7 +96,11 @@
     </div> <!-- end Event-location -->
     <div class="Map-place">
       
-      carrer de fluvia 22
+      <!--carrer de fluvia 22 -->
+
+      <iframe class="embed-responsive-item" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen>
+      </iframe>
+
     </div> <!-- end Map-place -->
   </div> <!-- end Home -->
 

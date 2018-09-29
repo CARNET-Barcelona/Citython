@@ -179,6 +179,9 @@
 	.hora{
 		font-weight: bold;
 	}
+      .row{
+            padding-bottom: 10px;
+      }
 	.martes{
 		color: blue !important;
 		padding-top: 50px;
