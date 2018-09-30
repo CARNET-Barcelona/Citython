@@ -34,15 +34,7 @@
         <li class="list-group-item">Mobility</li>
         <li class="list-group-item">Commerce</li>
       </ul>
-
-<!--
-
-      - challenge -> visualize ideas -> 
-                                        - Urban planners, arichitects, ... -> competencias necesarias
-                                        - Data scientcosas ->
-                                        BORRAR TODA LA MIERDA QUE AUNQUE NO SE VEA EN MI NAVEGADOR
-                                        PUEDE QUE SÍ EN OTROS, LIMPIAR EL CÓDIGO
-                                      -->
+     
     </div> <!-- end Event-details -->
 
     <div class="Faqs-section">          
@@ -98,7 +90,8 @@
       
       <!--carrer de fluvia 22 -->
 
-      <iframe class="embed-responsive-item" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen>
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.364844128361!2d2.2023697509760374!3d41.4095981430857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3383d57f647%3A0x13bfccddad188a5b!2sCarrer+de+Pere+IV%2C+362%2C+08019+Barcelona!5e0!3m2!1ses!2ses!4v1538310430403" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </iframe>
 
     </div> <!-- end Map-place -->
@@ -209,6 +202,8 @@
   }
   .Map-place{
     min-height: 400px;
+    padding-bottom: 40px;
+    padding-top: 40px;
   }
 
 </style>

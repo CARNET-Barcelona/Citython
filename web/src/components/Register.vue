@@ -2,16 +2,48 @@
 	<div id="Register">
 		<div class="container registros">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<div class="centrado">
-						<a href="#"><button class="Register-button" id="Register-button-1">Sing Up!!</button></a>
+						<div class="row">
+							<div class="col-md-12">
+								<a href="#"><button class="Register-button" id="Register-button-1">Sing Up!!</button></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								Botón de registro para urban-cosas
+							</div>
+						</div>
 					</div>
 				</div> <!-- button for urbanis-cosa -->
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<div class="centrado">
-						<a href="#"><button class="Register-button" id="Register-button-2">Sing Up!!</button></a>
+						<div class="row">
+							<div class="col-md-12">
+								<a href="#"><button class="Register-button" id="Register-button-2">Sing Up!!</button></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								Registro para data scientists
+							</div>
+						</div>
 					</div>
 				</div> <!-- button for data sicentits -->
+				<div class="col-md-4">
+					<div class="centrado">
+						<div class="row">
+							<div class="col-md-12">
+								<a href="#"><button class="Register-button" id="Register-button-3">Sing Up!!</button></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								Botón de registro para voluntarios
+							</div>
+						</div>
+					</div>
+				</div> <!-- button for volunteers -->
 			</div>
 		</div>
 	</div>
@@ -48,11 +80,9 @@
 
 }
 .Register-button:hover{
-	/* cosas nazis peter, cosas nazis */
-	font-weight: bold;   /* muy cutre, quizás deba hacer algo mejor y coherente con el resto */
+	font-weight: bold;   
 }
 .Register-button:active{
-	/* debo hacer algo mejor que esto */
 	background-color: yellow;
 }
 </style>
