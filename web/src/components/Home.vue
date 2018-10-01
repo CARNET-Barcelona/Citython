@@ -2,8 +2,9 @@
   <div class="Home">
     
     <div class="logo-place">
-      <img src="assets/Logo.png" class="logo-itself">
+      <img src="./Logo.jpg" class="logo-itself">
     </div>
+
     <div class="introduction">
       <h2>The challenge</h2>
       <p>
@@ -110,10 +111,9 @@
         msg: 'Citython Barcelona'
       }
     }
-  }
+}
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
   #Home{
@@ -164,7 +164,7 @@
     padding-bottom: 40px;
   }
   .Faqs-body{
-    padding-top: 15px;    /* bad code */
+    padding-top: 15px;   
   }
   .question{
     font-weight: bold;

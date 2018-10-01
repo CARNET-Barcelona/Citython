@@ -96,6 +96,7 @@
 #Register{
 	display: block;
 	min-height: 80vh;
+	/*background-image: url("./Logo.jpg");*/
 }
 .registros{
 	min-height: 100px;
