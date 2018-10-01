@@ -1,7 +1,9 @@
 <template>
 	<div id="Register">
 		<div class="container registros">
+
 			<div class="row">
+
 				<div class="col-md-4">
 					<div class="centrado">
 						<div class="row">
@@ -9,13 +11,19 @@
 								<a href="#"><button class="Register-button" id="Register-button-1">Sing Up!!</button></a>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row texto">
 							<div class="col-md-12">
-								Botón de registro para urban-cosas
+								<p class="titulo">
+									Urban planners
+								</p>
+								<p class="descripcion">
+									Descripciópn del perfil buscado
+								</p>
 							</div>
 						</div>
 					</div>
 				</div> <!-- button for urbanis-cosa -->
+
 				<div class="col-md-4">
 					<div class="centrado">
 						<div class="row">
@@ -23,13 +31,19 @@
 								<a href="#"><button class="Register-button" id="Register-button-2">Sing Up!!</button></a>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row texto">
 							<div class="col-md-12">
-								Registro para data scientists
+								<p class="titulo">
+									Data scientists
+								</p>
+								<p class="descripcion">
+									descripción del perfil buscado
+								</p>
 							</div>
 						</div>
 					</div>
 				</div> <!-- button for data sicentits -->
+
 				<div class="col-md-4">
 					<div class="centrado">
 						<div class="row">
@@ -37,15 +51,22 @@
 								<a href="#"><button class="Register-button" id="Register-button-3">Sing Up!!</button></a>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row texto">
 							<div class="col-md-12">
-								Botón de registro para voluntarios
+								<p class="titulo">
+									Volunteers / Mentors / Techpills from students
+								</p>
+								<p class="descripcion">
+									descripción del perfil buscado
+								</p>
 							</div>
 						</div>
 					</div>
 				</div> <!-- button for volunteers -->
-			</div>
-		</div>
+
+			</div> <!-- end row -->
+
+		</div> <!-- end container registros -->
 	</div>
 </template>
 
@@ -84,5 +105,15 @@
 }
 .Register-button:active{
 	background-color: yellow;
+}
+.texto{
+	padding-top: 20px;
+}
+.titulo{
+	color: blue;
+	font-weight: bold;
+}
+.descripcion{
+	color: blue;
 }
 </style>

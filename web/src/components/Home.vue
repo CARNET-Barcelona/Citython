@@ -8,7 +8,7 @@
       </p>
     </div> <!-- end introducction -->
     <div class="logo-place">
-      <img src="/Logo.png">
+    <!--  <img src="assets/Logo.png"> -->
     </div>
     <div class="Event-details">
       <p>
@@ -90,7 +90,6 @@
       
       <!--carrer de fluvia 22 -->
 
-      
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.364844128361!2d2.2023697509760374!3d41.4095981430857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3383d57f647%3A0x13bfccddad188a5b!2sCarrer+de+Pere+IV%2C+362%2C+08019+Barcelona!5e0!3m2!1ses!2ses!4v1538310430403" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </iframe>
 

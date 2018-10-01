@@ -35,7 +35,7 @@
 						<a href="mailto:info@carnetbarcelona.com?Subject=Citython_Web" target="_top" class="mail">info@carnetbarcelona.com</a>
 					</div>
 					<div class="col-md-6">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.3010761325845!2d2.113551415425859!3d41.38926747926396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498590adff591%3A0xcfc1f59c98656bea!2sCarrer+de+Jordi+Girona%2C+31%2C+08034+Barcelona!5e0!3m2!1ses!2ses!4v1538310295138" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.3010761325845!2d2.113551415425859!3d41.38926747926396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498590adff591%3A0xcfc1f59c98656bea!2sCarrer+de+Jordi+Girona%2C+31%2C+08034+Barcelona!5e0!3m2!1ses!2ses!4v1538310295138" width="400" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div> <!-- end container -->
@@ -45,7 +45,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						aquí insertaré un mapa de la mierda esta, alguna transición chula
+						mapa 
 					</div>
 					<div class="col-md-6">
 						Dirección del ajuntamiento
