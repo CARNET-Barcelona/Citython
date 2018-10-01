@@ -1,3 +1,3 @@
 # citython-webpage
 
-> Webpage for the Citython webpage
+> Webpage for the Citython hackathon.
