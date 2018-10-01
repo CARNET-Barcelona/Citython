@@ -1,7 +1,7 @@
 <template>
 	<div id="Agenda">
 	<p class="introduccion">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    <!--  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. -->
     </p>
 
       <div class="container martes">
@@ -9,15 +9,16 @@
       	<button class="boton">
       		Tuestay 6
       	</button>
-
-      	<div class="row">
-      		<div class="col-md-6">
-      			We don't know yet 
-      			<br>
-      		</div>
-      		<div class="col-md-6">
-      		</div>
-      	</div> 
+            <div class="container-fluid">
+            	<div class="row">
+            		<div class="col-md-6">
+            			Available soon
+                              <br>
+            		</div>
+            		<div class="col-md-6">
+            		</div>
+            	</div> 
+            </div>
 
       </div> <!-- end martes -->
 
@@ -169,9 +170,9 @@
 		color: blue;
 	}
 	.introduccion{
-		padding-top: 50px;
+	/*	padding-top: 50px;
 		padding-right: 50px;
-		padding-left: 50px;
+		padding-left: 50px;  */
 	}
 	.hora{
 		font-weight: bold;
@@ -194,10 +195,10 @@
 	}
 	.boton{
 		background-color: pink;
-	    color: white;
-	    border-radius: 5px;
-	    font-size: 25;
-	    padding: 15px;
-	    margin-bottom: 30px;
+	      color: white;
+	      border-radius: 5px;
+	      font-size: 25;
+	      padding: 15px;
+	      margin-bottom: 30px;
 	}
 </style>

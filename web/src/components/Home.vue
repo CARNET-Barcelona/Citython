@@ -1,6 +1,9 @@
 <template>
   <div class="Home">
     
+    <div class="logo-place">
+      <img src="assets/Logo.png" class="logo-itself">
+    </div>
     <div class="introduction">
       <h2>The challenge</h2>
       <p>
@@ -28,7 +31,7 @@
         Key subjects:
       </p>
       <ul class="list-group">
-        <li class="list-group-item">Public space (Note: not housing)</li>
+        <li class="list-group-item">Public space<!-- (Note: not housing) --></li>
         <li class="list-group-item">Gentrification</li>
         <li class="list-group-item">Tourism</li>
         <li class="list-group-item">Mobility</li>
@@ -131,6 +134,13 @@
   a {
     color: #42b983;
   }
+  .logo-place{
+
+  }
+  .logo-itself{
+    max-height: 500px;
+    max-width: 500px;
+  }
   .introduction{
     color: blue;
     position: relative;
@@ -175,17 +185,17 @@
     padding: 15px;
   }
   .Faqs-button:hover{
-    font-weight: bold;
+  /*  font-weight: bold;  */
   }
   .Faqs-button:active{
-    font-weight: bold;
-    background-color: yellow;
+  /*  font-weight: bold;
+    background-color: yellow;  */
   }
   .Event-location{
     color: blue;
     padding-bottom: 40px;
   }
- .Map-button{
+  .Map-button{
     background-color: pink;
     color: white;
     border-radius: 5px;
@@ -193,11 +203,11 @@
     padding: 15px;
   }
   .Map-button:hover{
-    font-weight: bold;
+  /*  font-weight: bold;  */
   }
   .Map-button:active{
-    font-weight: bold;
-    background-color: yellow;
+  /*  font-weight: bold;
+    background-color: yellow;  */
   }
   .Map-place{
     min-height: 400px;

@@ -4,14 +4,14 @@
 
 			<div class="row button-holder">
 				<div class="col-md-12">
-					<a href="#"><button class="Register-button" id="Register-button-1">Register!!</button></a>
+					<a href="https://www.eventbrite.com/e/citython-barcelona-2018-tickets-50731776108"><button class="Register-button" id="Register-button-1">Register!!</button></a>
 				</div>
 			</div> <!-- end button-holder -->
 
 			<div class="row text-holder">
 				<div class="col-md-12">
 					<p class="titulo">
-						join us motherfuckers!!
+						join us!!
 					</p>
 					<p class="texto">
 					</p>

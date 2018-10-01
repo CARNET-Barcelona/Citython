@@ -1,7 +1,7 @@
 <template>
 	<div id="Contact">
 		<p class="introducction">
-	      	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	      	<!--Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. -->
 	    </p> <!-- end introduccion -->
 		
 		<div class="container mails-organizadores">
@@ -9,16 +9,16 @@
 				<div class="col-md-6">
 					Manuel Gijón Agudo
 				</div>
-				<div class="col-md-6 mail">
-					<a href="mailto:manuel.gijon@carnetbarcelona.com?Subject=Citython_Web" target="_top">manuel.gijon@carnetbarcelona.com</a>  
+				<div class="col-md-6">
+					<a href="mailto:manuel.gijon@carnetbarcelona.com?Subject=Citython_Web" target="_top" class="mail">manuel.gijon@carnetbarcelona.com</a>  
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
 					Ekaterina Uzunova
 				</div>
-				<div class="col-md-6 mail">
-					<a href="mialto:ekaterina@carnetbarcelona.com?Subject=Citython_Web" target="_top">
+				<div class="col-md-6">
+					<a href="mialto:ekaterina@carnetbarcelona.com?Subject=Citython_Web" target="_top" class="mail">
 					ekaterina@carnetbarcelona.com</a>
 				</div>
 			</div>
@@ -28,9 +28,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						Dirección de CARNET
+						Carrer de Jordi Girona, 31
 						<br>
-						número de teléfono de CARNET
+						Edificio Til·lers, 08034 Barcelona
+						<br>
+						(+34) 93 413 76 04
 						<br>
 						<a href="mailto:info@carnetbarcelona.com?Subject=Citython_Web" target="_top" class="mail">info@carnetbarcelona.com</a>
 					</div>
@@ -41,7 +43,7 @@
 			</div> <!-- end container -->
 		</div> <!-- end about-carnet -->
 
-		<div class="about-ajuntament">
+	<!--	<div class="about-ajuntament">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -55,8 +57,8 @@
 						<a href="mailto:info@carnetbarcelona.com?Subject=Citython_Web" target="_top" class="mail">direccion del ayntamiento</a>
 					</div>
 				</div>
-			</div> <!-- end container -->
-		</div> <!-- end about-ajuntament -->
+			</div> --><!-- end container -->
+	<!--	</div> --><!-- end about-ajuntament -->
 
 		<div class="smart-city-week">
 			Enlaces a la smart city week
@@ -90,7 +92,7 @@
 	}
 	.mail:hover{
 		font-weight: bold;
-		font-size: 20px;
+		text-decoration: none;
 	}
 	.mail:active{
 		font-weight: bold;
