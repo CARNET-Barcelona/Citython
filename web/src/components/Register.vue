@@ -2,6 +2,22 @@
 	<div id="Register">
 		<div class="container registros">
 
+			<div class="row button-holder">
+				<div class="col-md-12">
+					<a href="#"><button class="Register-button" id="Register-button-1">Register!!</button></a>
+				</div>
+			</div> <!-- end button-holder -->
+
+			<div class="row text-holder">
+				<div class="col-md-12">
+					<p class="titulo">
+						join us motherfuckers!!
+					</p>
+					<p class="texto">
+					</p>
+				</div>
+			</div> <!-- end button-holder -->
+<!--
 			<div class="row">
 
 				<div class="col-md-4">
@@ -22,7 +38,7 @@
 							</div>
 						</div>
 					</div>
-				</div> <!-- button for urbanis-cosa -->
+				</div>--> <!-- button for urbanis-cosa 
 
 				<div class="col-md-4">
 					<div class="centrado">
@@ -42,7 +58,7 @@
 							</div>
 						</div>
 					</div>
-				</div> <!-- button for data sicentits -->
+				</div>--> <!-- button for data sicentits 
 
 				<div class="col-md-4">
 					<div class="centrado">
@@ -61,8 +77,8 @@
 								</p>
 							</div>
 						</div>
-					</div>
-				</div> <!-- button for volunteers -->
+					</div> 
+				</div> --><!-- button for volunteers -->
 
 			</div> <!-- end row -->
 
@@ -101,10 +117,17 @@
 
 }
 .Register-button:hover{
-	font-weight: bold;   
+	font-weight: normal;   
 }
 .Register-button:active{
-	background-color: yellow;
+	background-color: #db5c24;
+}
+.button-holder{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.text-holder{
+	padding-top: 40px;
 }
 .texto{
 	padding-top: 20px;
