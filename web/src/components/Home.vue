@@ -5,41 +5,7 @@
       <img src="./Logo.jpg" class="logo-itself">
     </div>
 
-    <div class="introduction">
-      <h2>The challenge</h2>
-      <p>
-        Barcelona is a mature tourist destination that receives more than 27 million visitors per year, half of whom generate at least one overnight stay. Worldwide, Barcelona ranked 6th among European city destinations in 2017. International visitor expenditure in Barcelona has gradually risen in recent years, in line with the increasing volume of tourists arriving in the city. The visitor economy in the city has an impact on the services in the city which are no longer targeted at the local residents, but at the tourists. The result of this transformation during the past years is tourism gentrification evident in the historic centres of the city. 
-      </p>
-    </div> <!-- end introducction -->
-    <div class="logo-place">
-    <!--  <img src="assets/Logo.png"> -->
-    </div>
-    <div class="Event-details">
-      <p>
-        Tourism gentrification (touristification) refers to the transformation of a middle-class neighbourhood into a relatively affluent and exclusive place marked by a rapid increase of corporate entertainment and tourism venues. 
-        The challenge of the Citython is to make proposals for management and intervention in the urban public spaces of the historical centers of Barcelona in order to mitigate the impacts of the tourism gentrification caused by the visitor economy. For this reason, an analysis of urban data is required in order to solve the problems with the exploitation of the historic centers (both public and collective spaces) through proposals that have as many goals as possible:
-      </p>
-      <ul class="list-group" style="padding-top: 40px;">
-        <li class="list-group-item">Mitigate the flow of people</li>
-        <li class="list-group-item">Reduce crowding</li>
-        <li class="list-group-item">Promote civic behaviors</li>
-        <li class="list-group-item">Promote the awareness of the user towards a responsible and respectful use of space</li>
-        <li class="list-group-item">Value the elements of tangible and / or intangible heritage</li>
-        <li class="list-group-item">Identify informal or non-normalized uses that generate negative externalities</li>
-        <li class="list-group-item">Support the decision making of policies and programs for the management of the phenomenon</li>
-      </ul>
-      <p style="padding-top: 40px; padding-bottom: 40px;">
-        Key subjects:
-      </p>
-      <ul class="list-group">
-        <li class="list-group-item">Public space<!-- (Note: not housing) --></li>
-        <li class="list-group-item">Gentrification</li>
-        <li class="list-group-item">Tourism</li>
-        <li class="list-group-item">Mobility</li>
-        <li class="list-group-item">Commerce</li>
-      </ul>
-     
-    </div> <!-- end Event-details -->
+  
 
     <div class="Faqs-section">          
       <div class="Faqs-header">
