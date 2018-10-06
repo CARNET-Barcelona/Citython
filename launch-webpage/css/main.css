@@ -103,6 +103,103 @@ a {
   padding-bottom: 40px;
   padding-top: 40px;
 }
+.hora{
+  font-weight: bold;
+}
+.row{
+  padding-bottom: 10px;
+}
+.martes{
+  color: blue !important;
+  padding-top: 50px;
+ /*padding-bottom: 50px;*/
+}
+.sabado{
+  color: blue !important;
+  padding-bottom: 50px;
+}
+.domingo{
+  color: blue !important;
+  padding-bottom: 50px;
+}
+.boton{
+  background-color: pink;
+  color: white;
+  border-radius: 5px;
+  font-size: 25;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.registros{
+  min-height: 100px;
+}
+.centrado{
+  display: block;
+  top: 50%;    
+  padding: 40px;
+}
+.Register-button{
+  background-color: pink;
+  color: white;
+  border-radius: 5px;
+  font-size: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.Register-button:hover{
+  font-weight: normal;   
+}
+.Register-button:active{
+  background-color: #db5c24;
+}
+.button-holder{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.text-holder{
+  padding-top: 40px;
+}
+.texto{
+  padding-top: 20px;
+}
+.titulo{
+  color: blue;
+  font-weight: bold;
+}
+.descripcion{
+  color: blue;
+}
+.introducction{
+  padding: 50px;
+}
+.container{
+}
+.mail{
+  font-weight: bold;
+  color: blue;
+}
+.mail:hover{
+  font-weight: bold;
+  text-decoration: none;
+}
+.mail:active{
+  font-weight: bold;
+  font-size: 15px;
+  color: blue; 
+}
+.about-carnet{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-ajuntament{   
+}
+.smart-city-week{
+  min-height: 100px;
+  padding-top: 40px;
+}
 .footer {
   background-color: #5cdaa9;
   position: relative;
