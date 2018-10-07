@@ -8,18 +8,51 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+  
+  	<!-- NAVBAR 
+  		 ====== -->
+
+	<!--
+  	<nav class="navbar navbar-expand-lg fixed-top">
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		
+  		<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    		<a class="navbar-brand" href="#">Hidden brand</a>
+    			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      				<li class="nav-item active">
+        		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Link</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link disabled" href="#">Disabled</a>
+			      </li>
+			    </ul>
+			    
+			  </div>
+	</nav>
+	-->
+
+	<!-- LOGO 
+		 ==== -->
+
 
 	<div class="logo-place">
       <img src="assets/Logo.jpg" class="logo-itself">
     </div>
 
-  
+            <div class="fin-seccion"></div>
+
+
     <!-- FAQ'S SECTION
     	 ============= -->
 
     <div class="Faqs-section">          
       <div class="Faqs-header">
-        <button class="Faqs-button collapsible">FAQS</button>
+        <button class="Faqs-button">FAQS</button>
       </div> <!-- end Faqs-header -->
 
       <div class="Faqs-body content">   <!-- debo hacerla que colapse  -->
@@ -54,6 +87,7 @@
     
 
 
+        <div class="fin-seccion"></div>
 
 
 
@@ -69,7 +103,7 @@
       
       <!--carrer de fluvia 22 -->
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.364844128361!2d2.2023697509760374!3d41.4095981430857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3383d57f647%3A0x13bfccddad188a5b!2sCarrer+de+Pere+IV%2C+362%2C+08019+Barcelona!5e0!3m2!1ses!2ses!4v1538310430403" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.364844128361!2d2.2023697509760374!3d41.4095981430857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3383d57f647%3A0x13bfccddad188a5b!2sCarrer+de+Pere+IV%2C+362%2C+08019+Barcelona!5e0!3m2!1ses!2ses!4v1538310430403" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
       </iframe>
 
     </div> <!-- end Map-place -->
@@ -78,6 +112,7 @@
 
 
 
+        <div class="fin-seccion"></div>
 
 
 
@@ -86,36 +121,60 @@
     	 ============== -->
 
     <div class="agenda">
-    	<div class="container martes">
 
     	<button class="boton">
       		AGENDA
       	</button>
 
-      	<div style="min-height: 40px;"></div>
 
-      	<button class="boton-secundario">
+    	<div class="container martes">
+
+    	
+<!-- ============================================================================================================= -->
+
+<div id="accordion">
+
+
+<div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed boton-secundario" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
       		Tuestay 6
-      	</button>
-
-            <div class="container-fluid">
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+       <div class="container-fluid">
             	<div class="row">
-            		<div class="col-md-6">
-            			Available soon
-                              <br>
+            		<div class="col-md-5">
             		</div>
-            		<div class="col-md-6">
+            		<div class="col-md-2 center">
+            			Available soon
+            		</div>
+            		<div class="col-md-5">
             		</div>
             	</div> 
-            </div>
+            </div> 
+        </div> <!-- end Martes -->
+      </div>
+    </div>
+  </div>
 
-      </div> <!-- end martes -->
 
-      <button class="boton-secundario">
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link boton-secundario" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseTwo">
       		Saturday 10
-      	</button>
+        </button>
+      </h5>
+    </div>
 
-      <div class="container sabado">
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <div class="container sabado">
 
       	<div class="row">
       		<div class="col-md-6 hora">
@@ -140,7 +199,33 @@
       			10:30 - 13:00
       		</div>
       		<div class="col-md-6">
-      			Techpills. Debo añadir aquí un enlace a la otra parte de la agenda.
+      			 
+
+							<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
+							  Techpills.
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">Techpills timetable</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+							        Available agenda.
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
+
       		</div>
       	</div> 
 
@@ -190,74 +275,86 @@
       	</div> 
 
       </div> <!-- end sabado -->
-
-      <button class="boton-secundario">
-      		Sunday 11
-      	</button>
-
-      <div class="container domingo">
-
-      	<div class="row">
-      		<div class="col-md-6 hora">
-      			8:00 - 13:00 
-      		</div>
-      		<div class="col-md-6">
-      			Working time.
-      		</div>
-      	</div> 
-
-      	<div class="row">
-      		<div class="col-md-6 hora">
-      			13:00 - 14:00
-      		</div>
-      		<div class="col-md-6">
-      			Launch time.
-      		</div>
-      	</div> 
-
-      	<div class="row">
-      		<div class="col-md-6 hora">
-      			14:00 - 15:00 
-      		</div>
-      		<div class="col-md-6">
-      			Indivudual presentation to the jury.
-      		</div>
-      	</div> 
-
-      	<div class="row">
-      		<div class="col-md-6 hora">
-      			15:00 - 18:00 
-      		</div>
-      		<div class="col-md-6">
-      			Jury deliberations and preparing presentations of the winners.
-      		</div>
-      	</div> 
-
-      	<div class="row">
-      		<div class="col-md-6 hora">
-      			18:00 - 21:00 
-      		</div>
-      		<div class="col-md-6">
-      			Presentation, ceremony awards and closure.
-      		</div>
-      	</div> 
-
-      </div> <!-- end domingo -->
-
-    </div> <!-- end container -->
-
+      </div>
     </div>
+  </div>
+  
 
 
 
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed boton-secundario" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      		Sunday 11
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+	      <div class="container domingo">
 
+	      	<div class="row">
+	      		<div class="col-md-6 hora">
+	      			8:00 - 13:00 
+	      		</div>
+	      		<div class="col-md-6">
+	      			Working time.
+	      		</div>
+	      	</div> 
 
+	      	<div class="row">
+	      		<div class="col-md-6 hora">
+	      			13:00 - 14:00
+	      		</div>
+	      		<div class="col-md-6">
+	      			Launch time.
+	      		</div>
+	      	</div> 
 
+	      	<div class="row">
+	      		<div class="col-md-6 hora">
+	      			14:00 - 15:00 
+	      		</div>
+	      		<div class="col-md-6">
+	      			Indivudual presentation to the jury.
+	      		</div>
+	      	</div> 
 
+	      	<div class="row">
+	      		<div class="col-md-6 hora">
+	      			15:00 - 18:00 
+	      		</div>
+	      		<div class="col-md-6">
+	      			Jury deliberations and preparing presentations of the winners.
+	      		</div>
+	      	</div> 
+
+	      	<div class="row">
+	      		<div class="col-md-6 hora">
+	      			18:00 - 21:00 
+	      		</div>
+	      		<div class="col-md-6">
+	      			Presentation, ceremony awards and closure.
+	      		</div>
+	      	</div> 
+
+	      </div> <!-- end domingo -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================================================================= -->
+
+      	
+
+        <div class="fin-seccion"></div>
 
 
     <!-- REGISTRATION SECTION
     	 ==================== -->
+
 
     <div class="container registros">
 
@@ -270,7 +367,8 @@
 			<div class="row text-holder">
 				<div class="col-md-12">
 					<p class="titulo">
-						join us!!
+						join us!! 
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
 					</p>
 					<p class="texto">
 					</p>
@@ -281,6 +379,20 @@
 			</div> <!-- end row -->
 
 		</div> <!-- end container registros -->
+
+
+
+        <div class="fin-seccion"></div>
+
+
+		<!-- CONTACT 
+			 ======= -->
+
+		<div>
+			<button class="boton">
+			 	Contact 
+			</button>
+		</div>
 
 		<div class="container mails-organizadores">
 			<div class="row">
@@ -327,6 +439,7 @@
 
 
 
+        <div class="fin-seccion"></div>
 
 
 

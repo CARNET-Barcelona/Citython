@@ -1,3 +1,6 @@
+/* GENERAL 
+   ======= */
+
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 h1, h2 {
   font-weight: normal;
@@ -23,8 +26,45 @@ li {
 a {
   color: #42b983;
 }
-.logo-place{
 
+.Faqs-button,
+.Faqs-button:hover,
+.Faqs-button:active,
+.Map-button,
+.Map-button:hover,
+.Map-button:active{
+  background-color: pink;
+  color: white;
+  border-radius: 5px;
+  font-size: 25;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-bottom: 30px;
+}
+
+.fin-seccion{
+  min-height: 40px;
+}
+/* NAVBAR
+   ====== */
+
+/*
+.navbar{
+  top: 0%;
+  background-color: pink;
+  margin-top: 0px;
+  padding: 10px;
+  border: 10px
+  height: 50px !important;
+;}
+*/
+
+/* LOGO
+   ==== */
+
+.logo-place{
+  margin-top: 0px; 
+  margin-bottom: 20px;
 }
 .logo-itself{
   max-height: 500px;
@@ -40,7 +80,7 @@ a {
   padding-right: 60px;
 }
 .logo-place{
-
+  position: relative;
 }
 .Event-details{
   color: blue;
@@ -67,61 +107,47 @@ a {
   padding-left: 60px;
   padding-right: 60px;
 }
-.Faqs-button{
-  background-color: pink;
-  color: white;
-  border-radius: 5px;
-  font-size: 25;
-  padding: 15px;
-}
-.Faqs-button:hover{
-  /*  font-weight: bold;  */
-}
-.Faqs-button:active{
-  /*  font-weight: bold;
-    background-color: yellow;  */
-}
+
+/* MAPA
+   ==== */
+
 .Event-location{
   color: blue;
   padding-bottom: 40px;
 }
-.Map-button{
-  background-color: pink;
-  color: white;
-  border-radius: 5px;
-  font-size: 25;
-  padding: 15px;
-}
-.Map-button:hover{
-  /*  font-weight: bold;  */
-}
-.Map-button:active{
-  /*  font-weight: bold;
-    background-color: yellow;  */
-}
+
 .Map-place{
-  min-height: 400px;
   padding-bottom: 40px;
   padding-top: 40px;
+}
+
+/* AGENDA
+   ====== */
+
+.card{
+}
+.card-body{
 }
 .hora{
   font-weight: bold;
 }
 .row{
-  padding-bottom: 10px;
-}
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: blue;
+}-
 .martes{
   color: blue !important;
-  padding-top: 50px;
+  padding-top: 20px;
  /*padding-bottom: 50px;*/
 }
 .sabado{
   color: blue !important;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .domingo{
   color: blue !important;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .boton{
   background-color: pink;
@@ -131,18 +157,27 @@ a {
   padding: 15px;
   margin-bottom: 30px;
 }
-.boton-secundario{
+.boton-secundario, 
+.boton-secundario:hover, 
+.boton-secundario:active,
+.btn{
   background-color: white !important;
-  color: pink;
+  color: pink !important;
   border-color: pink;
   font-weight: bold;
   border-radius: 5px;
   font-size: 25;
   padding: 15px;
   margin-bottom: 10px;
+  text-decoration: none;
 }
+
+/* REGISTRO 
+   ======== */
+
 .registros{
   min-height: 100px;
+  padding: 60px;
 }
 .centrado{
   display: block;
@@ -188,12 +223,10 @@ a {
 }
 .container{
 }
-.mail{
-  font-weight: bold;
-  color: blue;
-}
+.mail,
 .mail:hover{
   font-weight: bold;
+  color: blue;
   text-decoration: none;
 }
 .mail:active{
