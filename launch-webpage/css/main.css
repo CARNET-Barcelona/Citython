@@ -59,6 +59,7 @@ a {
   font-weight: bold;
   padding-left: 60px;
   padding-right: 60px;
+  color: blue;
 }
 .answer{
   color: #5cdaa9;
@@ -129,6 +130,16 @@ a {
   font-size: 25;
   padding: 15px;
   margin-bottom: 30px;
+}
+.boton-secundario{
+  background-color: white !important;
+  color: pink;
+  border-color: pink;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 25;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 .registros{
   min-height: 100px;
