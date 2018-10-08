@@ -244,6 +244,11 @@ a {
   min-height: 100px;
   padding-top: 40px;
 }
+.scw{
+  /* logo de la smart city week */
+  width: 25%;
+  height: auto;
+}
 .footer {
   background-color: white;
   position: relative;
@@ -264,4 +269,17 @@ a {
   display: block;
   margin-right: auto;
   margin-left: auto;  
+}
+.contenedor1,
+.contenedor2{
+    display: block;
+    padding-left: 40px;
+    margin-right: 40px;
+}
+.ayuntamiento,
+.cisco{
+  max-height: 75px;
+  max-width: auto;
+  margin-left: 30px;
+  margin-right: 30px;
 }
