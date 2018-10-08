@@ -9,7 +9,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #003399;
   margin-top: 0px;
 }
 h1, h2 {
@@ -71,7 +71,7 @@ a {
   max-width: 500px;
 }
 .introduction{
-  color: blue;
+  color: #003399;
   position: relative;
   min-height: 15%;
   padding-top: 40px;
@@ -83,13 +83,13 @@ a {
   position: relative;
 }
 .Event-details{
-  color: blue;
+  color: #003399;
   padding-bottom: 40px;
   padding-left: 60px;
   padding-right: 60px;
 }
 .Faqs-section{
-  color: blue;
+  color: #003399;
   padding-bottom: 40px;
 }
 .Faqs-body{
@@ -99,10 +99,10 @@ a {
   font-weight: bold;
   padding-left: 60px;
   padding-right: 60px;
-  color: blue;
+  color: #003399;
 }
 .answer{
-  color: #5cdaa9;
+  color: #8CA5FF;
   padding-bottom: 10px;
   padding-left: 60px;
   padding-right: 60px;
@@ -112,7 +112,7 @@ a {
    ==== */
 
 .Event-location{
-  color: blue;
+  color: #003399;
   padding-bottom: 40px;
 }
 
@@ -134,19 +134,19 @@ a {
 .row{
   padding-bottom: 0px;
   margin-bottom: 0px;
-  color: blue;
+  color: #003399 !important;
 }-
 .martes{
-  color: blue !important;
+  color: #003399 !important;
   padding-top: 20px;
  /*padding-bottom: 50px;*/
 }
 .sabado{
-  color: blue !important;
+  color: #003399 !important;
   padding-bottom: 20px;
 }
 .domingo{
-  color: blue !important;
+  color: #003399 !important;
   padding-bottom: 20px;
 }
 .boton{
@@ -161,7 +161,7 @@ a {
 .boton-secundario:hover, 
 .boton-secundario:active,
 .btn{
-  background-color: white !important;
+  background-color: #F3F3F3 !important;
   color: pink !important;
   border-color: pink;
   font-weight: bold;
@@ -212,11 +212,11 @@ a {
   padding-top: 20px;
 }
 .titulo{
-  color: blue;
+  color: #003399;
   font-weight: bold;
 }
 .descripcion{
-  color: blue;
+  color: #003399;
 }
 .introducction{
   padding: 50px;
@@ -226,13 +226,13 @@ a {
 .mail,
 .mail:hover{
   font-weight: bold;
-  color: blue;
+  color: #003399;
   text-decoration: none;
 }
 .mail:active{
   font-weight: bold;
   font-size: 15px;
-  color: blue; 
+  color: #003399; 
 }
 .about-carnet{
   padding-top: 40px;
@@ -245,7 +245,7 @@ a {
   padding-top: 40px;
 }
 .footer {
-  background-color: #5cdaa9;
+  background-color: white;
   position: relative;
   bottom: 0%;
   width: 100%;
@@ -253,9 +253,9 @@ a {
   color:  white;
 }
 .countdown{
-  size: 50px;
+  font-size: 50px;
   font-weight: bold;
-  color: white;
+  color: #5cdaa9;
   padding-top: 30px;
   padding-bottom: 30px;
   font-family: Futura, Impact;
