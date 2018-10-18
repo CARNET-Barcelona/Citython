@@ -32,7 +32,10 @@ a {
 .Faqs-button:active,
 .Map-button,
 .Map-button:hover,
-.Map-button:active{
+.Map-button:active,
+.Material-button,
+.Material-button:hover,
+.Material-button:active{
   background-color: pink;
   color: white;
   border-radius: 5px;
@@ -45,19 +48,6 @@ a {
 .fin-seccion{
   min-height: 40px;
 }
-/* NAVBAR
-   ====== */
-
-/*
-.navbar{
-  top: 0%;
-  background-color: pink;
-  margin-top: 0px;
-  padding: 10px;
-  border: 10px
-  height: 50px !important;
-;}
-*/
 
 /* LOGO
    ==== */
@@ -170,6 +160,29 @@ a {
   padding: 15px;
   margin-bottom: 10px;
   text-decoration: none;
+}
+/* MATERIAL 
+   ======== */
+.material{
+  min-height: 100px;
+  padding: 60px;
+}
+.material-1,
+.material-2,
+.material-3{
+  background-color: #8CA5FF;
+  color: white;
+  box-shadow: 0px 8px 15px #003399;
+  padding: 15px;
+  border-radius: 15px;
+}
+.material-1:hover,
+.material-1:active,
+.material-2:hover,
+.material-2:active,
+.material-3:hover,
+.material-3:active{
+
 }
 
 /* REGISTRO 
