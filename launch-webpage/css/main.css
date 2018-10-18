@@ -129,7 +129,6 @@ a {
 .martes{
   color: #003399 !important;
   padding-top: 20px;
- /*padding-bottom: 50px;*/
 }
 .sabado{
   color: #003399 !important;
@@ -161,6 +160,11 @@ a {
   margin-bottom: 10px;
   text-decoration: none;
 }
+.btn:hover, 
+.btn:active{
+  box-shadow: 0px 8px 18px #FE2E9A;
+  background-color: #8CA5FF;
+}
 /* MATERIAL 
    ======== */
 .material{
@@ -172,7 +176,6 @@ a {
 .material-3{
   background-color: #8CA5FF;
   color: white;
-  box-shadow: 0px 8px 15px #003399;
   padding: 15px;
   border-radius: 15px;
 }
@@ -182,7 +185,7 @@ a {
 .material-2:active,
 .material-3:hover,
 .material-3:active{
-
+    box-shadow: 0px 8px 15px #003399;
 }
 
 /* REGISTRO 
@@ -208,12 +211,12 @@ a {
   padding-bottom: 15px;
 
 }
-.Register-button:hover{
-  font-weight: normal;   
-}
+.Register-button:hover,
 .Register-button:active{
-  background-color: #db5c24;
+  font-weight: normal;   
+  box-shadow: 0px 8px 12px #FE2E9A;
 }
+
 .button-holder{
   padding-top: 40px;
   padding-bottom: 40px;
