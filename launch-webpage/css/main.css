@@ -113,7 +113,20 @@ a {
 
 /* AGENDA
    ====== */
-
+.button-subsection{
+  background-color: #8CA5FF;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+.enlace-charlas{
+  text-decoration:none;
+}
+.enlace-charlas:hover,
+.enlace-charlas:active{
+  font-weight: bold;
+  text-decoration: none;
+}
 .card{
 }
 .card-body{
