@@ -124,7 +124,6 @@ a {
 }
 .enlace-charlas:hover,
 .enlace-charlas:active{
-  font-weight: bold;
   text-decoration: none;
 }
 .card{
