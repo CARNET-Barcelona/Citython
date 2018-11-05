@@ -314,11 +314,16 @@ a {
 .laterales{
   min-width: 30px;
 }
-.logos-secundarios{
+.logo-carnet{
   width: 40%;
  /* position: center;
   margin-right: 10px;  */
 }
+.logo-hays{
+  width: 30%;
+  margin-left: 0px !important;
+}
 .logo-MWW{
-  width: 60%;
+  width: 40%;
+  margin-left: 0px !important;
 }
