@@ -56,6 +56,13 @@ a {
   min-height: 40px;
 }
 
+.Challenge-document,
+.Challenge-document:hover,
+.Challenge-document:active{
+  color: pink;
+  font-weight: bold;
+  text-decoration: none;
+}
 /* LOGO
    ==== */
 
