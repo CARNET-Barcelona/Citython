@@ -344,7 +344,7 @@ part}\label{start-the-processing-your-part}
 every district
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}27}]:} \PY{n+nb}{print}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{N\PYZus{}Distric}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}4}]:} \PY{n+nb}{print}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{N\PYZus{}Distric}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{p}{)}
 \end{Verbatim}
 
 
@@ -364,13 +364,13 @@ Name: N\_Distric, dtype: int64
     \end{Verbatim}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}45}]:} \PY{n}{ne\PYZus{}dis} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{N\PYZus{}Distric}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}
-         
-         \PY{n}{plt}\PY{o}{.}\PY{n}{figure}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{)}\PY{p}{)}
-         \PY{n}{sns}\PY{o}{.}\PY{n}{barplot}\PY{p}{(}\PY{n}{y}\PY{o}{=}\PY{n}{ne\PYZus{}dis}\PY{o}{.}\PY{n}{index}\PY{o}{.}\PY{n}{values}\PY{p}{,} \PY{n}{x}\PY{o}{=}\PY{n}{ne\PYZus{}dis}\PY{o}{.}\PY{n}{values}\PY{p}{,} \PY{n}{order}\PY{o}{=}\PY{n}{ne\PYZus{}dis}\PY{o}{.}\PY{n}{index}\PY{p}{)}
-         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Number of neighbours in each district in Barcelona}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Number of neighbours}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}5}]:} \PY{n}{ne\PYZus{}dis} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{N\PYZus{}Distric}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}
+        
+        \PY{n}{plt}\PY{o}{.}\PY{n}{figure}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{)}\PY{p}{)}
+        \PY{n}{sns}\PY{o}{.}\PY{n}{barplot}\PY{p}{(}\PY{n}{y}\PY{o}{=}\PY{n}{ne\PYZus{}dis}\PY{o}{.}\PY{n}{index}\PY{o}{.}\PY{n}{values}\PY{p}{,} \PY{n}{x}\PY{o}{=}\PY{n}{ne\PYZus{}dis}\PY{o}{.}\PY{n}{values}\PY{p}{,} \PY{n}{order}\PY{o}{=}\PY{n}{ne\PYZus{}dis}\PY{o}{.}\PY{n}{index}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Number of neighbours in each district in Barcelona}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Number of neighbours}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
@@ -383,29 +383,29 @@ Name: N\_Distric, dtype: int64
 \(\frac{man}{women}\) ratio
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}62}]:} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Man\PYZus{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{/}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Women\PYZus{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}6}]:} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Man\PYZus{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{/}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Women\PYZus{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}62}]:} count    73.000000
-         mean      0.913460
-         std       0.072076
-         min       0.798030
-         25\%       0.869040
-         50\%       0.893113
-         75\%       0.945862
-         max       1.215240
-         Name: ratio\_MW, dtype: float64
+{\color{outcolor}Out[{\color{outcolor}6}]:} count    73.000000
+        mean      0.913460
+        std       0.072076
+        min       0.798030
+        25\%       0.869040
+        50\%       0.893113
+        75\%       0.945862
+        max       1.215240
+        Name: ratio\_MW, dtype: float64
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}70}]:} \PY{n}{plt}\PY{o}{.}\PY{n}{figure}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{)}\PY{p}{)}
-         \PY{n}{sns}\PY{o}{.}\PY{n}{distplot}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{bins}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{)}
-         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{value}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Ratio Men / Women distribution}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}7}]:} \PY{n}{plt}\PY{o}{.}\PY{n}{figure}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{)}\PY{p}{)}
+        \PY{n}{sns}\PY{o}{.}\PY{n}{distplot}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{bins}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{value}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Ratio Men / Women distribution}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
@@ -423,87 +423,59 @@ Name: N\_Distric, dtype: int64
     In which neighbours there are more men than women?
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}73}]:} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{\PYZgt{}} \PY{l+m+mi}{1}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}8}]:} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{\PYZgt{}} \PY{l+m+mi}{1}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Neighbou\PYZus{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}73}]:}     OID1  C\_Distri\_2       N\_Distric  C\_Neighbou  \textbackslash{}
-         0    0.0           1    Ciutat Vella           1   
-         1    1.0           1    Ciutat Vella           2   
-         3    3.0           1    Ciutat Vella           4   
-         11  11.0           3  Sants-Montjuïc          12   
-         41  41.0           7  Horta-Guinardó          42   
-         53  53.0           8      Nou Barris          54   
-         56  56.0           9     Sant Andreu          57   
-         58  58.0           9     Sant Andreu          59   
-         69  69.0          10      Sant Martí          70   
-         
-                                        Neighbou\_1    Man\_1  Women\_1  Total\_1  \textbackslash{}
-         0                                el Raval  26553.0  21850.0  48403.0   
-         1                          el Barri Gòtic   8368.0   7508.0  15876.0   
-         3   Sant Pere, Santa Caterina i la Ribera  11466.0  11390.0  22856.0   
-         11             la Marina del Prat Vermell    577.0    561.0   1138.0   
-         41                               la Clota    270.0    267.0    537.0   
-         53                             Torre Baró   1368.0   1351.0   2719.0   
-         56                      la Trinitat Vella   5376.0   4877.0  10253.0   
-         58                          el Bon Pastor   6408.0   6358.0  12766.0   
-         69                  el Besòs i el Maresme  11883.0  11371.0  23254.0   
-         
-             Area\_km2\_1    Pop\_dens\_1  \textbackslash{}
-         0     1.098393  44067.108766   
-         1     0.841905  18857.232750   
-         3     1.114299  20511.553762   
-         11   14.284129     79.668839   
-         41    0.178272   3012.242582   
-         53    1.768413   1537.536384   
-         56    0.809698  12662.743398   
-         58    1.881775   6784.018939   
-         69    1.274426  18246.643249   
-         
-                                                        WEB\_45  Household1  ratio\_MW  
-         0   http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        74.6  1.215240  
-         1   http://www.bcn.cat/estadistica/catala/dades/in{\ldots}       110.5  1.114544  
-         3   http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        97.8  1.006673  
-         11  http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        49.7  1.028520  
-         41  http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        91.4  1.011236  
-         53  http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        45.1  1.012583  
-         56  http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        48.9  1.102317  
-         58  http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        62.0  1.007864  
-         69  http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        54.7  1.045027  
+{\color{outcolor}Out[{\color{outcolor}8}]:} 0                                  el Raval
+        1                            el Barri Gòtic
+        3     Sant Pere, Santa Caterina i la Ribera
+        11               la Marina del Prat Vermell
+        41                                 la Clota
+        53                               Torre Baró
+        56                        la Trinitat Vella
+        58                            el Bon Pastor
+        69                    el Besòs i el Maresme
+        Name: Neighbou\_1, dtype: object
 \end{Verbatim}
             
     What are the most 'extremal' values?
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}81}]:} \PY{n}{nei} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{n+nb}{max}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{]}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{The neightbour with highest number of men per woman is }\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{nei}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Neighbou\PYZus{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ with a ratio of }\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{nei}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}9}]:} \PY{n}{nei} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{n+nb}{max}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Neighbou\PYZus{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{rat} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{n+nb}{max}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{nei} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ \PYZhy{} }\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{rat}\PY{p}{)}\PY{p}{)} 
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-The neightbour with highest number of men per woman is 0    el Raval
-Name: Neighbou\_1, dtype: object with a ratio of 0    1.21524
-Name: ratio\_MW, dtype: float64
+0    el Raval - 0    1.21524\textbackslash{}nName: ratio\_MW, dtype{\ldots}
+Name: Neighbou\_1, dtype: object
 
     \end{Verbatim}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}82}]:} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{n+nb}{min}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}10}]:} \PY{n}{nei} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{n+nb}{min}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Neighbou\PYZus{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+         \PY{n}{rat} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{n+nb}{min}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ratio\PYZus{}MW}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{nei} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ \PYZhy{} }\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{rat}\PY{p}{)}\PY{p}{)} 
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}82}]:}     OID1  C\_Distri\_2       N\_Distric  C\_Neighbou Neighbou\_1   Man\_1  Women\_1  \textbackslash{}
-         39  39.0           7  Horta-Guinardó          40    Montbau  2268.0   2842.0   
-         
-             Total\_1  Area\_km2\_1   Pop\_dens\_1  \textbackslash{}
-         39   5110.0     2.04669  2496.714076   
-         
-                                                        WEB\_45  Household1  ratio\_MW  
-         39  http://www.bcn.cat/estadistica/catala/dades/in{\ldots}        82.2   0.79803  
+    \begin{Verbatim}[commandchars=\\\{\}]
+39    Montbau - 39    0.79803\textbackslash{}nName: ratio\_MW, dtype{\ldots}
+Name: Neighbou\_1, dtype: object
+
+    \end{Verbatim}
+
+    \subsection{Exporting the data: back to
+QGis}\label{exporting-the-data-back-to-qgis}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{n}{df}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{density\PYZus{}mod.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
 \end{Verbatim}
-            
+
+
 
     % Add a bibliography block to the postdoc
     
