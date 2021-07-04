@@ -1,0 +1,366 @@
+/* GENERAL 
+   ======= */
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #003399;
+  margin-top: 0px;
+}
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+
+.separador{
+  height: 60px;
+}
+
+
+
+.Faqs-button,
+.Faqs-button:hover,
+.Faqs-button:active,
+.Map-button,
+.Map-button:hover,
+.Map-button:active,
+.Material-button,
+.Material-button:hover,
+.Material-button:active{
+  background-color: pink;
+  color: white;
+  border-radius: 5px;
+  font-size: 25;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-bottom: 30px;
+}
+
+.fin-seccion{
+  min-height: 40px;
+}
+
+.Challenge-document,
+.Challenge-document:hover,
+.Challenge-document:active{
+  color: pink;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* LOGO
+   ==== */
+
+.logo-place{
+  margin-top: 0px; 
+  margin-bottom: 20px;
+}
+.logo-itself{
+  max-height: 500px;
+  max-width: 500px;
+}
+.introduction{
+  color: #003399;
+  position: relative;
+  min-height: 15%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.logo-place{
+  position: relative;
+}
+.Event-details{
+  color: #003399;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.Faqs-section{
+  color: #003399;
+  padding-bottom: 40px;
+}
+.Faqs-body{
+  padding-top: 15px;   
+}
+.question{
+  font-weight: bold;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #003399;
+}
+.answer{
+  color: #8CA5FF;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* MAPA
+   ==== */
+
+.Event-location{
+  color: #003399;
+  padding-bottom: 40px;
+}
+
+.Map-place{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+/* AGENDA
+   ====== */
+.button-subsection{
+  background-color: #8CA5FF;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+.enlace-charlas{
+  text-decoration:none;
+}
+.enlace-charlas:hover,
+.enlace-charlas:active{
+  text-decoration: none;
+}
+.card{
+}
+.card-body{
+}
+.hora{
+  font-weight: bold;
+}
+.row{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: #003399 !important;
+}-
+.martes{
+  color: #003399 !important;
+  padding-top: 20px;
+}
+.sabado{
+  color: #003399 !important;
+  padding-bottom: 20px;
+}
+.domingo{
+  color: #003399 !important;
+  padding-bottom: 20px;
+}
+.boton{
+  background-color: pink;
+  color: white;
+  border-radius: 5px;
+  font-size: 25;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.boton-secundario, 
+.boton-secundario:hover, 
+.boton-secundario:active,
+.btn{
+  background-color: #F3F3F3 !important;
+  color: pink !important;
+  border-color: pink;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 25;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.btn:hover, 
+.btn:active{
+  box-shadow: 0px 8px 18px #FE2E9A;
+  background-color: #8CA5FF;
+}
+/* MATERIAL 
+   ======== */
+.material{
+  min-height: 100px;
+  padding: 60px;
+}
+.material-1,
+.material-2,
+.material-3{
+  background-color: #8CA5FF;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+.material-1:hover,
+.material-1:active,
+.material-2:hover,
+.material-2:active,
+.material-3:hover,
+.material-3:active{
+    box-shadow: 0px 8px 15px #003399;
+}
+
+/* REGISTRO 
+   ======== */
+
+.registros{
+  min-height: 100px;
+  padding: 60px;
+}
+.centrado{
+  display: block;
+  top: 50%;    
+  padding: 40px;
+}
+.Register-button{
+  background-color: pink;
+  color: white;
+  border-radius: 5px;
+  font-size: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.Register-button:hover,
+.Register-button:active{
+  font-weight: normal;   
+  box-shadow: 0px 8px 125px #FE2E9A;
+}
+
+.button-holder{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.text-holder{
+  padding-top: 40px;
+}
+.texto{
+  padding-top: 20px;
+}
+.titulo{
+  color: #003399;
+  font-weight: bold;
+}
+.descripcion{
+  color: #003399;
+}
+.introducction{
+  padding: 50px;
+}
+.container{
+}
+.mail,
+.mail:hover{
+  font-weight: bold;
+  color: #003399;
+  text-decoration: none;
+}
+.mail:active{
+  font-weight: bold;
+  font-size: 15px;
+  color: #003399; 
+}
+.about-carnet{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-ajuntament{   
+}
+.smart-city-week{
+  min-height: 100px;
+  padding-top: 40px;
+  /*background-color: #003399;*/
+  background-color: white;
+}
+.scw{
+  /* logo de la smart city week */
+  width: 25%;
+  height: auto;
+}
+.footer {
+  background-color: white;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+  min-height: 15%;
+  color:  white;
+}
+.countdown{
+  font-size: 50px;
+  font-weight: bold;
+  color: #5cdaa9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Futura, Impact;
+  float: none;
+  margin: 0;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;  
+}
+.contenedor1,
+.contenedor2{
+    display: block;
+    padding-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+.ayuntamiento,
+.cisco{
+  width: 60%;
+}
+.laterales{
+  min-width: 30px;
+}
+.logo-carnet{
+  width: 40%;
+ /* position: center;
+  margin-right: 10px;  */
+  margin-top: 40px;
+}
+.logo-hays{
+  width: 55%;
+  margin-left: 0px !important;
+  margin-top: 40px;
+}
+.logo-MWW{
+  width: 40%;
+  margin-left: 0px !important;
+  margin-top: 40px;
+}   
+.logo-Esade{
+  width: 40%;
+  margin-left: 0px !important;
+  margin-top: 40px;
+}
+.logo-UB{
+  width: 40%;
+  margin-left: 0px !important;
+  margin-top: 40px;
+}
+.logo-UAB{
+  width: 40%;
+  margin-left: 0px !important;
+  margin-top: 40px;
+}
+.logo-UPC{
+  width: 80%;
+  margin-left: 16vw;
+  margin-top: 40px;
+}

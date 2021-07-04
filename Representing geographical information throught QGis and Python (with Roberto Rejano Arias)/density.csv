@@ -1,0 +1,74 @@
+OID1,C_Distri_2,N_Distric,C_Neighbou,Neighbou_1,Man_1,Women_1,Total_1,Area_km2_1,Pop_dens_1,WEB_45,Household1
+0.000000,"01",Ciutat Vella,"01",el Raval,26553.000000,21850.000000,48403.000000,1.098393,44067.108766,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri1.pdf,74.60000000000
+1.000000,"01",Ciutat Vella,"02",el Barri Gòtic,8368.000000,7508.000000,15876.000000,0.841905,18857.232750,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri2.pdf,110.50000000000
+2.000000,"01",Ciutat Vella,"03",la Barceloneta,7581.000000,7631.000000,15212.000000,1.313868,11578.027776,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri3.pdf,84.80000000000
+3.000000,"01",Ciutat Vella,"04","Sant Pere, Santa Caterina i la Ribera",11466.000000,11390.000000,22856.000000,1.114299,20511.553762,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri4.pdf,97.80000000000
+4.000000,"02",Eixample,"05",el Fort Pienc,15039.000000,16924.000000,31963.000000,0.928901,34409.477864,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri5.pdf,105.00000000000
+5.000000,"02",Eixample,"06",la Sagrada Família,23686.000000,27937.000000,51623.000000,1.050991,49118.396349,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri6.pdf,95.90000000000
+6.000000,"02",Eixample,"07",la Dreta de l'Eixample,20240.000000,23754.000000,43994.000000,2.123405,20718.614053,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri7.pdf,170.00000000000
+7.000000,"02",Eixample,"08",l'Antiga Esquerra de l'Eixample,19434.000000,22727.000000,42161.000000,1.234453,34153.579398,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri8.pdf,139.20000000000
+8.000000,"02",Eixample,"09",la Nova Esquerra de l'Eixample,27038.000000,31186.000000,58224.000000,1.337656,43526.875806,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri9.pdf,105.30000000000
+9.000000,"02",Eixample,"10",Sant Antoni,18134.000000,20378.000000,38512.000000,0.800985,48080.794282,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri10.pdf,104.00000000000
+10.000000,"03",Sants-Montjuïc,"11",el Poble Sec,20213.000000,20693.000000,40906.000000,4.604541,8883.839442,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri11.pdf,76.10000000000
+11.000000,"03",Sants-Montjuïc,"12",la Marina del Prat Vermell,577.000000,561.000000,1138.000000,14.284129,79.668839,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri12.pdf,49.70000000000
+12.000000,"03",Sants-Montjuïc,"13",la Marina de Port,14728.000000,15751.000000,30479.000000,1.254642,24292.976279,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri13.pdf,68.30000000000
+13.000000,"03",Sants-Montjuïc,"14",la Font de la Guatlla,4936.000000,5545.000000,10481.000000,0.302062,34698.204002,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri14.pdf,84.90000000000
+14.000000,"03",Sants-Montjuïc,"15",Hostafrancs,7670.000000,8284.000000,15954.000000,0.410206,38892.654478,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri15.pdf,84.60000000000
+15.000000,"03",Sants-Montjuïc,"16",la Bordeta,8738.000000,9767.000000,18505.000000,0.576519,32097.798152,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri16.pdf,73.60000000000
+16.000000,"03",Sants-Montjuïc,"17",Sants - Badal,11414.000000,12930.000000,24344.000000,0.410559,59294.715243,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri17.pdf,74.50000000000
+17.000000,"03",Sants-Montjuïc,"18",Sants,19601.000000,21712.000000,41313.000000,1.097761,37633.887157,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri18.pdf,92.30000000000
+18.000000,"04",Les Corts,"19",les Corts,21580.000000,24832.000000,46412.000000,1.412573,32856.362716,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri19.pdf,119.90000000000
+19.000000,"04",Les Corts,"20",la Maternitat i Sant Ramon,11251.000000,12807.000000,24058.000000,1.902580,12644.933158,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri20.pdf,114.30000000000
+20.000000,"04",Les Corts,"21",Pedralbes,5500.000000,6300.000000,11800.000000,2.702379,4366.522772,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri21.pdf,242.40000000000
+21.000000,"05",Sarrià-Sant Gervasi,"22","Vallvidrera, el Tibidabo i les Planes",2269.000000,2397.000000,4666.000000,11.522410,404.950002,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri22.pdf,130.80000000000
+22.000000,"05",Sarrià-Sant Gervasi,"23",Sarrià,11552.000000,13267.000000,24819.000000,3.041669,8159.665401,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri23.pdf,186.60000000000
+23.000000,"05",Sarrià-Sant Gervasi,"24",les Tres Torres,7722.000000,8810.000000,16532.000000,0.788280,20972.254846,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri24.pdf,211.00000000000
+24.000000,"05",Sarrià-Sant Gervasi,"25",Sant Gervasi - la Bonanova,11777.000000,13797.000000,25574.000000,2.235228,11441.336511,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri25.pdf,187.50000000000
+25.000000,"05",Sarrià-Sant Gervasi,"26",Sant Gervasi - Galvany,21201.000000,25842.000000,47043.000000,1.658916,28357.672739,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri26.pdf,198.30000000000
+26.000000,"05",Sarrià-Sant Gervasi,"27",el Putxet i el Farró,13278.000000,16000.000000,29278.000000,0.846300,34595.289671,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri27.pdf,140.60000000000
+27.000000,"06",Gràcia,"28",Vallcarca i els Penitents,7215.000000,8356.000000,15571.000000,1.208556,12883.974721,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri28.pdf,112.90000000000
+28.000000,"06",Gràcia,"29",el Coll,3455.000000,3889.000000,7344.000000,0.357910,20519.097146,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri29.pdf,84.40000000000
+29.000000,"06",Gràcia,"30",la Salut,6089.000000,7214.000000,13303.000000,0.643497,20672.982634,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri30.pdf,116.40000000000
+30.000000,"06",Gràcia,"31",la Vila de Gràcia,23092.000000,27836.000000,50928.000000,1.326020,38406.649286,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri31.pdf,101.50000000000
+31.000000,"06",Gràcia,"32",el Camp d'en Grassot i Gràcia Nova,15760.000000,18596.000000,34356.000000,0.649533,52893.366479,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri32.pdf,108.10000000000
+32.000000,"07",Horta-Guinardó,"33",el Baix Guinardó,11870.000000,13896.000000,25766.000000,0.559836,46024.161599,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri33.pdf,92.00000000000
+33.000000,"07",Horta-Guinardó,"34",Can Baró,4170.000000,4729.000000,8899.000000,0.383735,23190.500182,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri34.pdf,96.00000000000
+34.000000,"07",Horta-Guinardó,"35",el Guinardó,16691.000000,19300.000000,35991.000000,1.308253,27510.743080,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri35.pdf,80.10000000000
+35.000000,"07",Horta-Guinardó,"36",la Font d'en Fargues,4507.000000,4998.000000,9505.000000,0.657221,14462.401773,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri36.pdf,94.80000000000
+36.000000,"07",Horta-Guinardó,"37",el Carmel,15306.000000,16537.000000,31843.000000,0.941584,33818.550171,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri37.pdf,54.50000000000
+37.000000,"07",Horta-Guinardó,"38",la Teixonera,5519.000000,5886.000000,11405.000000,0.337046,33838.100205,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri38.pdf,75.80000000000
+38.000000,"07",Horta-Guinardó,"39",Sant Genís dels Agudells,3229.000000,3662.000000,6891.000000,1.716026,4015.674261,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri39.pdf,86.30000000000
+39.000000,"07",Horta-Guinardó,"40",Montbau,2268.000000,2842.000000,5110.000000,2.046690,2496.714076,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri40.pdf,82.20000000000
+40.000000,"07",Horta-Guinardó,"41",la Vall d'Hebron,2597.000000,2872.000000,5469.000000,0.736146,7429.233426,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri41.pdf,87.50000000000
+41.000000,"07",Horta-Guinardó,"42",la Clota,270.000000,267.000000,537.000000,0.178272,3012.242582,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri42.pdf,91.40000000000
+42.000000,"07",Horta-Guinardó,"43",Horta,12590.000000,14086.000000,26676.000000,3.082269,8654.664408,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri43.pdf,80.60000000000
+43.000000,"08",Nou Barris,"44",Vilapicina i la Torre Llobeta,11752.000000,13829.000000,25581.000000,0.567114,45107.302101,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri44.pdf,63.70000000000
+44.000000,"08",Nou Barris,"45",Porta,11558.000000,13046.000000,24604.000000,0.841100,29252.173551,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri45.pdf,62.50000000000
+45.000000,"08",Nou Barris,"46",el Turó de la Peira,7135.000000,8419.000000,15554.000000,0.354108,43924.465271,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri46.pdf,51.70000000000
+46.000000,"08",Nou Barris,"47",Can Peguera,1100.000000,1195.000000,2295.000000,0.119515,19202.680844,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri47.pdf,51.50000000000
+47.000000,"08",Nou Barris,"48",la Guineueta,7051.000000,8096.000000,15147.000000,0.611414,24773.720171,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri48.pdf,54.40000000000
+48.000000,"08",Nou Barris,"49",Canyelles,3366.000000,3656.000000,7022.000000,0.792537,8860.153144,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri49.pdf,54.40000000000
+49.000000,"08",Nou Barris,"50",les Roquetes,7603.000000,8030.000000,15633.000000,0.641717,24361.217105,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri50.pdf,57.00000000000
+50.000000,"08",Nou Barris,"51",Verdun,5669.000000,6625.000000,12294.000000,0.237436,51778.200244,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri51.pdf,53.80000000000
+51.000000,"08",Nou Barris,"52",la Prosperitat,12498.000000,13797.000000,26295.000000,0.594805,44207.748879,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri52.pdf,55.10000000000
+52.000000,"08",Nou Barris,"53",la Trinitat Nova,3555.000000,3914.000000,7469.000000,0.560081,13335.577050,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri53.pdf,40.60000000000
+53.000000,"08",Nou Barris,"54",Torre Baró,1368.000000,1351.000000,2719.000000,1.768413,1537.536384,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri54.pdf,45.10000000000
+54.000000,"08",Nou Barris,"55",Ciutat Meridiana,5135.000000,5214.000000,10349.000000,0.355408,29118.645028,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri55.pdf,34.30000000000
+55.000000,"08",Nou Barris,"56",Vallbona,658.000000,690.000000,1348.000000,0.597791,2254.968739,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri56.pdf,51.90000000000
+56.000000,"09",Sant Andreu,"57",la Trinitat Vella,5376.000000,4877.000000,10253.000000,0.809698,12662.743398,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri57.pdf,48.90000000000
+57.000000,"09",Sant Andreu,"58",Baró de Viver,1237.000000,1304.000000,2541.000000,0.229918,11051.745399,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri58.pdf,72.60000000000
+58.000000,"09",Sant Andreu,"59",el Bon Pastor,6408.000000,6358.000000,12766.000000,1.881775,6784.018939,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri59.pdf,62.00000000000
+59.000000,"09",Sant Andreu,"60",Sant Andreu,26805.000000,30013.000000,56818.000000,1.841187,30859.445564,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri60.pdf,77.00000000000
+60.000000,"09",Sant Andreu,"61",la Sagrera,13634.000000,15500.000000,29134.000000,0.972371,29961.823837,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri61.pdf,77.90000000000
+61.000000,"09",Sant Andreu,"62",el Congrés i els Indians,6429.000000,7732.000000,14161.000000,0.407024,34791.541536,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri62.pdf,71.70000000000
+62.000000,"09",Sant Andreu,"63",Navas,10262.000000,11797.000000,22059.000000,0.423348,52106.057658,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri63.pdf,84.30000000000
+63.000000,"10",Sant Martí,"64",el Camp de l'Arpa del Clot,17974.000000,20387.000000,38361.000000,0.741733,51718.075351,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri64.pdf,82.70000000000
+64.000000,"10",Sant Martí,"65",el Clot,13062.000000,14108.000000,27170.000000,0.695953,39039.975886,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri65.pdf,83.70000000000
+65.000000,"10",Sant Martí,"66",el Parc i la Llacuna del Poblenou,7231.000000,7719.000000,14950.000000,1.114038,13419.649136,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri66.pdf,92.10000000000
+66.000000,"10",Sant Martí,"67",la Vila Olímpica del Poblenou,4594.000000,4785.000000,9379.000000,0.942887,9947.111853,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri67.pdf,162.00000000000
+67.000000,"10",Sant Martí,"68",el Poblenou,16353.000000,17289.000000,33642.000000,1.544598,21780.426783,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri68.pdf,98.60000000000
+68.000000,"10",Sant Martí,"69",Diagonal Mar i el Front Marítim del Poblenou,6552.000000,6896.000000,13448.000000,1.236939,10871.998375,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri69.pdf,152.60000000000
+69.000000,"10",Sant Martí,"70",el Besòs i el Maresme,11883.000000,11371.000000,23254.000000,1.274426,18246.643249,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri70.pdf,54.70000000000
+70.000000,"10",Sant Martí,"71",Provençals del Poblenou,9805.000000,10501.000000,20306.000000,1.104976,18376.874102,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri71.pdf,98.70000000000
+71.000000,"10",Sant Martí,"72",Sant Martí de Provençals,12291.000000,13905.000000,26196.000000,0.745407,35143.218059,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri72.pdf,68.70000000000
+72.000000,"10",Sant Martí,"73",la Verneda i la Pau,13827.000000,15186.000000,29013.000000,1.122805,25839.751696,http://www.bcn.cat/estadistica/catala/dades/inf/barris/a2011/barri73.pdf,58.80000000000
